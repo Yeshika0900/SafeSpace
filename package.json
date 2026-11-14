@@ -1,8 +1,21 @@
 {
-  "dependencies": {
-    "@capacitor/core": "^8.6.0"
+  "name": "safespace",
+  "private": true,
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=22.13.0"
   },
-  "devDependencies": {
-    "@capacitor/cli": "^8.6.0"
-  }
+  "scripts": {
+    "dev": "npm --prefix website run dev",
+    "build": "npm --prefix website run build",
+    "test": "npm --prefix website test && npm --prefix network-agent test",
+    "lint": "npm --prefix website run lint",
+    "typecheck": "npm --prefix website run typecheck",
+    "format": "npm --prefix website run format",
+    "format:check": "npm --prefix website run format:check",
+    "bundle:check": "npm --prefix website run bundle:check",
+    "android:sync": "npm --prefix website run android:sync",
+    "helper": "npm --prefix network-agent start"
+  },
+  "type": "module"
 }

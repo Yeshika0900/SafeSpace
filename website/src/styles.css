@@ -569,14 +569,14 @@ button:focus-visible {
   margin-bottom: 22px;
 }
 
-.heading label {
+.heading .eyebrow {
   font-size: 10px;
   letter-spacing: 2px;
   color: #9f91ff;
   font-weight: 700;
 }
 
-.heading h1 {
+.heading h3 {
   font: 800 32px Manrope, sans-serif;
   margin: 9px 0;
 }
@@ -988,4 +988,12 @@ button:focus-visible {
     animation-iteration-count: 1 !important;
     transition-duration: .01ms !important;
   }
+}
+/* Existing controls and results must fit narrow screens and long device names. */
+.panel, .results li > div { min-width: 0; overflow-wrap: anywhere; }
+.results li, .row { flex-wrap: wrap; }
+.check input { flex-shrink: 0; }
+.workspace-section:focus-visible { outline: 2px solid var(--cyan); outline-offset: 4px; }
+@media (hover: none) {
+  .hero-button:hover, .feature-card:hover, .panel button:hover:not(:disabled) { transform: none; }
 }

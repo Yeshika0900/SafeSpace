@@ -1,0 +1,20 @@
+import {afterEach,test,expect,vi} from 'vitest';
+import {CameraSession, type CameraState} from '../services/camera';
+import type {ObjectModel} from '../services/inference';
+function deferred<T>() {let resolve!:(value:T)=>void;const promise=new Promise<T>(r=>resolve=r);return {promise,resolve};}
+function setup(load?:()=>Promise<ObjectModel>,acquire?:()=>Promise<MediaStream>){
+ vi.useFakeTimers();const track={stop:vi.fn()};const stream={getTracks:()=>[track]} as unknown as MediaStream;
+ const video={srcObject:null,play:vi.fn().mockResolvedValue(undefined),readyState:2} as unknown as HTMLVideoElement;
+ const model={detect:vi.fn().mockResolvedValue([]),dispose:vi.fn()};let state:CameraState;
+ const notify=vi.fn((s:CameraState)=>state=s);
+ const session=new CameraSession(()=>video,notify,acquire||vi.fn().mockResolvedValue(stream),load||vi.fn().mockResolvedValue(model));
+ return {session,model,video,track,stream,notify,get state(){return state;}};
+}
+afterEach(()=>vi.clearAllTimers());
+test('stop during delayed permission stops late stream without model or timer',async()=>{const d=deferred<MediaStream>(),load=vi.fn();const t=setup(load,()=>d.promise);const start=t.session.start();expect(t.state.pending).toBe(true);t.session.stop();d.resolve(t.stream);await start;expect(t.track.stop).toHaveBeenCalledOnce();expect(load).not.toHaveBeenCalled();expect(vi.getTimerCount()).toBe(0);});
+test('delayed model after destroy is disposed and creates no timer',async()=>{const d=deferred<ObjectModel>();const t=setup(()=>d.promise);const start=t.session.start();await Promise.resolve();await Promise.resolve();expect(t.state.active).toBe(true);expect(t.state.loading).toBe(true);t.session.destroy();const calls=t.notify.mock.calls.length;d.resolve(t.model);await start;expect(t.model.dispose).toHaveBeenCalledOnce();expect(t.notify.mock.calls.length).toBe(calls);expect(vi.getTimerCount()).toBe(0);expect(t.video.srcObject).toBeNull();});
+test('load failure preserves preview and manual capture availability',async()=>{const t=setup(async()=>{throw new Error('offline');});await t.session.start();expect(t.state.active).toBe(true);expect(t.state.loading).toBe(false);expect(t.state.error).toContain('preview');t.session.stop();expect(t.track.stop).toHaveBeenCalled();});
+test('stop mid-inference defers disposal until inference resolves',async()=>{const t=setup(),d=deferred<[]>();t.model.detect.mockReturnValue(d.promise);await t.session.start();t.session.stop();expect(t.model.dispose).not.toHaveBeenCalled();d.resolve([]);await Promise.resolve();await Promise.resolve();expect(t.model.dispose).toHaveBeenCalledOnce();expect(vi.getTimerCount()).toBe(0);expect(t.state.pred).toEqual([]);});
+test('no overlapping inference and stale observations clear on failure',async()=>{const t=setup(),d=deferred<[]>();t.model.detect.mockReturnValueOnce(d.promise);await t.session.start();await vi.advanceTimersByTimeAsync(5000);expect(t.model.detect).toHaveBeenCalledOnce();d.resolve([]);await Promise.resolve();t.model.detect.mockResolvedValueOnce([{class:'chair',score:0.9,bbox:[0,0,1,1]}]);await vi.advanceTimersByTimeAsync(1200);expect(t.state.pred).toHaveLength(1);t.model.detect.mockRejectedValueOnce(new Error('inference'));await vi.advanceTimersByTimeAsync(1200);expect(t.state.pred).toEqual([]);expect(t.state.error).toContain('failed');t.session.destroy();});
+test('restart ignores previous generation, including delayed permission',async()=>{const first=deferred<MediaStream>();let calls=0;const t=setup(undefined,()=>++calls===1?first.promise:Promise.resolve(t.stream));const old=t.session.start();await t.session.start();first.resolve(t.stream);await old;expect(t.state.active).toBe(true);expect(t.track.stop).toHaveBeenCalledOnce();t.session.destroy();expect(vi.getTimerCount()).toBe(0);});
+test('repeated start/stop plateaus timers and disposes each model',async()=>{let disposed=0;const t=setup(async()=>({detect:async()=>[],dispose:()=>disposed++}));for(let i=0;i<20;i++){await t.session.start();await Promise.resolve();t.session.stop();expect(vi.getTimerCount()).toBe(0);}expect(disposed).toBe(20);expect(t.track.stop).toHaveBeenCalledTimes(20);});
