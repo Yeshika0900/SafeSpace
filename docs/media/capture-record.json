@@ -1,0 +1,14 @@
+{
+  "capturedAt": "2026-11-14T06:45:40.753Z",
+  "sourceAppRevision": "d3af9676840c8e3006067e80887ca75645244981",
+  "captureCommit": "79e2857cfe99000a9c8d1e635fce5efe6f2b7dd2",
+  "workflowRun": "43567832676",
+  "desktop": [1440, 1100],
+  "mobile": [390, 1250],
+  "browser": "159.0.8154.6",
+  "camera": "off",
+  "checklist": "0/6",
+  "realSensing": false,
+  "pageErrors": [],
+  "sensingRequests": []
+}
