@@ -16,6 +16,18 @@ function emit(name, bytes) {
   console.log("SAFESPACE_ASSET_END");
 }
 
+async function settleWorkspace(page) {
+  await page.mouse.move(0, 0);
+  await page.locator("#workspace").evaluate((element) => {
+    const top = element.getBoundingClientRect().top + window.scrollY;
+    window.scrollTo(0, top);
+  });
+  await page.evaluate(async () => {
+    await new Promise((resolve) => requestAnimationFrame(resolve));
+    await new Promise((resolve) => requestAnimationFrame(resolve));
+  });
+}
+
 test("capture actual app and format documentation", async ({ page }) => {
   test.setTimeout(60000);
   const files = JSON.parse(readFileSync(planPath, "utf8")).files;
@@ -59,6 +71,7 @@ test("capture actual app and format documentation", async ({ page }) => {
   const start = page.getByRole("button", { name: "Start inspection" });
   await start.click();
   await page.evaluate(() => document.fonts.ready);
+  await settleWorkspace(page);
   const desktop = "docs/media/camera-workspace-desktop.png";
   await page.screenshot({ path: path.join(root, desktop), fullPage: false });
   await page.setViewportSize({ width: 390, height: 1250 });
@@ -67,6 +80,8 @@ test("capture actual app and format documentation", async ({ page }) => {
     exact: true,
   });
   await checklist.click();
+  await expect(checklist).toHaveAttribute("aria-pressed", "true");
+  await settleWorkspace(page);
   await expect(page.getByRole("checkbox")).toHaveCount(6);
   await expect(page.getByRole("checkbox", { checked: true })).toHaveCount(0);
   const mobile = "docs/media/checklist-mobile.png";
