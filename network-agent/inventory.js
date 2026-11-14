@@ -30,7 +30,8 @@ export function parseNeighbours(output, format) {
   const devices = [],
     seen = new Set();
   let parseNeighboursInterface;
-  let recognized = format === "linux-ip" && !output.trim();
+  let recognized =
+    ["linux-ip", "linux-arp", "macos"].includes(format) && !output.trim();
   for (const line of output.split(/\r?\n/)) {
     const row = line.trim();
     if (!row) continue;

@@ -145,3 +145,19 @@ test("repeated start/stop plateaus timers and disposes each model", async () => 
   expect(disposed).toBe(20);
   expect(t.track.stop).toHaveBeenCalledTimes(20);
 });
+test("remount waits for cancelled controller inference before detecting again", async () => {
+  const old = setup(),
+    pending = deferred<[]>();
+  old.model.detect.mockReturnValue(pending.promise);
+  await old.session.start();
+  old.session.destroy();
+  const fresh = setup();
+  await fresh.session.start();
+  expect(fresh.model.detect).not.toHaveBeenCalled();
+  pending.resolve([]);
+  await Promise.resolve();
+  await Promise.resolve();
+  await vi.advanceTimersByTimeAsync(1200);
+  expect(fresh.model.detect).toHaveBeenCalledOnce();
+  fresh.session.destroy();
+});
