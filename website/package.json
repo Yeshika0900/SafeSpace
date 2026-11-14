@@ -10,8 +10,8 @@
     "test": "vitest run",
     "lint": "cd .. && website/node_modules/.bin/eslint website/src website/bench website/e2e website/*.config.js network-agent scripts",
     "typecheck": "tsc --noEmit",
-    "format": "prettier --write src vite.config.js eslint.config.js tsconfig.json ../network-agent ../scripts ../docs ../README.md ../CONTRIBUTING.md ../SECURITY.md ../.github",
-    "format:check": "prettier --check src vite.config.js eslint.config.js tsconfig.json ../network-agent ../scripts ../docs ../README.md ../CONTRIBUTING.md ../SECURITY.md ../.github",
+    "format": "cd .. && website/node_modules/.bin/prettier --write --ignore-path .gitignore --ignore-path .prettierignore \"**/*.{js,jsx,mjs,ts,json,md,yml,yaml,css,html}\"",
+    "format:check": "cd .. && website/node_modules/.bin/prettier --check --ignore-path .gitignore --ignore-path .prettierignore \"**/*.{js,jsx,mjs,ts,json,md,yml,yaml,css,html}\"",
     "bundle:check": "node ../scripts/check-bundle.mjs",
     "android:sync": "cap sync android",
     "test:browser": "playwright test",
@@ -45,11 +45,16 @@
     "jsdom": "26.1.0",
     "prettier": "3.8.1",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.62.1",
+    "typescript-eslint": "8.72.2",
     "vite": "^6.0.5",
-    "vitest": "3.2.7"
+    "vitest": "4.1.12"
   },
   "engines": {
     "node": ">=22.13.0"
+  },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "11.0.1"
+    }
   }
 }

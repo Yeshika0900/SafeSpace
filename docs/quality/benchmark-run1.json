@@ -1,0 +1,3217 @@
+{
+  "run": "run1",
+  "source": "3c8841b9f5f11146fa81d3fe3e5ef944fcd6471d",
+  "workingDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "manifestSha256": "2fe2b760a1ddbe35129982f9b3a79caa122a1b45533a1c8dcdd581c0784bd3c1",
+  "environment": {
+    "node": "v24.22.1",
+    "platform": "linux",
+    "arch": "x64",
+    "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "tfjs": "4.22.0",
+    "coco": "2.2.3",
+    "backend": "cpu"
+  },
+  "config": {
+    "base": "lite_mobilenet_v2",
+    "maxPredictions": 20,
+    "minScore": 0.55,
+    "displayCap": 8,
+    "intervalMs": 1200,
+    "maxSide": 640,
+    "resize": "bilinear alignCorners=false",
+    "input": "jpeg-js RGB int32"
+  },
+  "runs": [
+    {
+      "name": "baseline",
+      "minScore": 0.55,
+      "images": [
+        {
+          "id": 336356,
+          "split": "validation",
+          "ms": 6532.124469999999,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 290684928
+        },
+        {
+          "id": 485972,
+          "split": "validation",
+          "ms": 5801.540804,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 290816000
+        },
+        {
+          "id": 14226,
+          "split": "validation",
+          "ms": 6524.481723000001,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 290947072
+        },
+        {
+          "id": 189698,
+          "split": "validation",
+          "ms": 5534.3604540000015,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 291078144
+        },
+        {
+          "id": 22623,
+          "split": "validation",
+          "ms": 5531.305210999999,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 291078144
+        },
+        {
+          "id": 324258,
+          "split": "validation",
+          "ms": 6163.453460999997,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 291209216
+        },
+        {
+          "id": 565989,
+          "split": "validation",
+          "ms": 5698.439079000003,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 291340288
+        },
+        {
+          "id": 256192,
+          "split": "validation",
+          "ms": 5747.453908999996,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 291733504
+        },
+        {
+          "id": 467176,
+          "split": "validation",
+          "ms": 5764.794108000002,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 294092800
+        },
+        {
+          "id": 290081,
+          "split": "validation",
+          "ms": 5870.67423199999,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 324894720
+        },
+        {
+          "id": 187236,
+          "split": "validation",
+          "ms": 5999.430550999998,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 342065152
+        },
+        {
+          "id": 370711,
+          "split": "validation",
+          "ms": 11991.590971000012,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 342065152
+        },
+        {
+          "id": 235836,
+          "split": "validation",
+          "ms": 5571.848349000007,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 316108800
+        },
+        {
+          "id": 223959,
+          "split": "validation",
+          "ms": 5639.962702999997,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 326332416
+        },
+        {
+          "id": 541773,
+          "split": "validation",
+          "ms": 4645.411623000007,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 326324224
+        },
+        {
+          "id": 176446,
+          "split": "validation",
+          "ms": 2946.6024809999944,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 326455296
+        },
+        {
+          "id": 493566,
+          "split": "holdout",
+          "ms": 2725.4622579999996,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 326565888
+        },
+        {
+          "id": 461573,
+          "split": "holdout",
+          "ms": 2871.2630400000053,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 326828032
+        },
+        {
+          "id": 338901,
+          "split": "holdout",
+          "ms": 3002.228522000005,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 333905920
+        },
+        {
+          "id": 383838,
+          "split": "holdout",
+          "ms": 2415.2479639999947,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 334151680
+        },
+        {
+          "id": 448448,
+          "split": "holdout",
+          "ms": 2679.9260899999936,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 338214912
+        },
+        {
+          "id": 185890,
+          "split": "holdout",
+          "ms": 2520.3405490000005,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 338214912
+        },
+        {
+          "id": 272049,
+          "split": "holdout",
+          "ms": 2557.8136010000017,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 338345984
+        },
+        {
+          "id": 29675,
+          "split": "holdout",
+          "ms": 2641.7946229999943,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 338345984
+        },
+        {
+          "id": 284764,
+          "split": "holdout",
+          "ms": 2708.6266490000125,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 338345984
+        },
+        {
+          "id": 560371,
+          "split": "holdout",
+          "ms": 2633.2148569999845,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 338345984
+        },
+        {
+          "id": 416837,
+          "split": "holdout",
+          "ms": 2677.559850999998,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 338345984
+        },
+        {
+          "id": 491090,
+          "split": "holdout",
+          "ms": 2970.4341520000016,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 338477056
+        },
+        {
+          "id": 206838,
+          "split": "holdout",
+          "ms": 3027.90055999998,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 338477056
+        },
+        {
+          "id": 272136,
+          "split": "holdout",
+          "ms": 2679.605645999982,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 338477056
+        },
+        {
+          "id": 471789,
+          "split": "holdout",
+          "ms": 2665.566580999992,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 338477056
+        },
+        {
+          "id": 351362,
+          "split": "holdout",
+          "ms": 5974.759954999987,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 349618176
+        }
+      ],
+      "predictions": [
+        {
+          "image_id": 336356,
+          "category_id": 1,
+          "bbox": [
+            116.38737052679062, 7.117605209350586, 243.04241013526917,
+            314.20090675354004
+          ],
+          "score": 0.9983110427856445
+        },
+        {
+          "image_id": 336356,
+          "category_id": 1,
+          "bbox": [
+            -0.7704709470272064, 31.070842742919922, 132.10738298296928,
+            256.6098976135254
+          ],
+          "score": 0.9094557762145996
+        },
+        {
+          "image_id": 336356,
+          "category_id": 59,
+          "bbox": [
+            -0.2176203429698944, 421.5079116821289, 324.70855101943016,
+            215.91697692871094
+          ],
+          "score": 0.792935848236084
+        },
+        {
+          "image_id": 336356,
+          "category_id": 67,
+          "bbox": [
+            0.6067943871021271, 240.07970809936523, 417.4793867766857,
+            402.2705268859863
+          ],
+          "score": 0.7815220355987549
+        },
+        {
+          "image_id": 336356,
+          "category_id": 46,
+          "bbox": [
+            64.43878209590912, 267.79624938964844, 61.51958227157593,
+            149.4556427001953
+          ],
+          "score": 0.761045515537262
+        },
+        {
+          "image_id": 336356,
+          "category_id": 59,
+          "bbox": [
+            124.38040372729301, 291.33724212646484, 203.80308642983437,
+            78.69956970214844
+          ],
+          "score": 0.6832348704338074
+        },
+        {
+          "image_id": 485972,
+          "category_id": 61,
+          "bbox": [
+            27.305951356887817, 329.3935775756836, 264.142168879509,
+            243.7548828125
+          ],
+          "score": 0.9565231800079346
+        },
+        {
+          "image_id": 485972,
+          "category_id": 67,
+          "bbox": [
+            -2.213840961456299, 216.86267852783203, 431.12661051750183,
+            426.53011322021484
+          ],
+          "score": 0.7376517653465271
+        },
+        {
+          "image_id": 485972,
+          "category_id": 57,
+          "bbox": [
+            153.72027450799942, 116.7870044708252, 251.53571981191635,
+            175.38405418395996
+          ],
+          "score": 0.6226407289505005
+        },
+        {
+          "image_id": 14226,
+          "category_id": 73,
+          "bbox": [
+            221.2755584716797, 235.47889709472656, 214.8352813720703,
+            131.09613418579102
+          ],
+          "score": 0.9915047287940979
+        },
+        {
+          "image_id": 14226,
+          "category_id": 1,
+          "bbox": [
+            200.04766464233398, 35.08957386016846, 344.555606842041,
+            321.7069387435913
+          ],
+          "score": 0.9877649545669556
+        },
+        {
+          "image_id": 14226,
+          "category_id": 62,
+          "bbox": [
+            393.8037872314453, 17.914938926696777, 191.86065673828125,
+            242.87216663360596
+          ],
+          "score": 0.966383159160614
+        },
+        {
+          "image_id": 189698,
+          "category_id": 3,
+          "bbox": [
+            99.12205696105957, 292.6609330177307, 168.279447555542,
+            124.61315822601318
+          ],
+          "score": 0.7930522561073303
+        },
+        {
+          "image_id": 324258,
+          "category_id": 1,
+          "bbox": [
+            365.2639389038086, 66.29659652709961, 208.20762634277344,
+            407.8587341308594
+          ],
+          "score": 0.9335172176361084
+        },
+        {
+          "image_id": 324258,
+          "category_id": 1,
+          "bbox": [
+            170.77116012573242, 45.14200687408447, 390.4599952697754,
+            424.4390630722046
+          ],
+          "score": 0.9254257678985596
+        },
+        {
+          "image_id": 565989,
+          "category_id": 85,
+          "bbox": [
+            183.7082576751709, 273.5670280456543, 67.54926681518555,
+            45.447120666503906
+          ],
+          "score": 0.7593129873275757
+        },
+        {
+          "image_id": 256192,
+          "category_id": 4,
+          "bbox": [
+            61.841487884521484, 68.43782901763916, 512.0444679260254,
+            373.33592891693115
+          ],
+          "score": 0.9815672039985657
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            99.14566040039062, 38.37256193161011, 44.96784210205078,
+            143.0508828163147
+          ],
+          "score": 0.8258653879165649
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            506.5142822265625, 75.61868190765381, 32.57164001464844,
+            86.72916412353516
+          ],
+          "score": 0.6374394297599792
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            8.187153339385986, 48.18875312805176, 44.39452886581421,
+            131.3593339920044
+          ],
+          "score": 0.5910099148750305
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            546.9527435302734, 75.7523775100708, 24.633941650390625,
+            85.84633827209473
+          ],
+          "score": 0.5907911658287048
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            21.310970783233643, 46.79227352142334, 43.36402654647827,
+            132.97961711883545
+          ],
+          "score": 0.5854451656341553
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            579.163932800293, 76.12079858779907, 29.03900146484375,
+            84.72121953964233
+          ],
+          "score": 0.5746117234230042
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            268.31066131591797, 238.84383392333984, 133.01658630371094,
+            186.42941999435425
+          ],
+          "score": 0.9813376069068909
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            29.55625057220459, 184.33393836021423, 147.36992359161377,
+            229.47096633911133
+          ],
+          "score": 0.9809293150901794
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            469.0349578857422, 251.7898190021515, 128.02711486816406,
+            172.90829420089722
+          ],
+          "score": 0.9419240951538086
+        },
+        {
+          "image_id": 467176,
+          "category_id": 72,
+          "bbox": [
+            342.3514175415039, 94.70587933063507, 139.8736572265625,
+            112.54433608055115
+          ],
+          "score": 0.8848090171813965
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            224.5743179321289, 156.44935882091522, 9.145927429199219,
+            25.35412621498108
+          ],
+          "score": 0.8507007956504822
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            226.3321304321289, 93.70928764343262, 6.544227600097656,
+            19.60581862926483
+          ],
+          "score": 0.6922188997268677
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            229.29834365844727, 118.3539205789566, 6.902275085449219,
+            18.665809869766235
+          ],
+          "score": 0.6824833154678345
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            247.20428466796875, 88.76034784317017, 7.435646057128906,
+            22.127508997917175
+          ],
+          "score": 0.5659607648849487
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            249.79314804077148, 157.21743762493134, 9.27337646484375,
+            26.69558548927307
+          ],
+          "score": 0.5502970218658447
+        },
+        {
+          "image_id": 290081,
+          "category_id": 55,
+          "bbox": [
+            9.92195463180542, 47.33367097377777, 598.2537603378296,
+            412.36218416690826
+          ],
+          "score": 0.8926489353179932
+        },
+        {
+          "image_id": 290081,
+          "category_id": 51,
+          "bbox": [
+            26.11027157306671, 345.6205530166626, 586.3886021375656,
+            262.86011838912964
+          ],
+          "score": 0.7458916306495667
+        },
+        {
+          "image_id": 187236,
+          "category_id": 17,
+          "bbox": [
+            259.0926170349121, 53.317108154296875, 305.7339668273926,
+            163.36687088012695
+          ],
+          "score": 0.9892961978912354
+        },
+        {
+          "image_id": 187236,
+          "category_id": 17,
+          "bbox": [
+            -0.31040191650390625, 229.24796104431152, 414.0422821044922,
+            246.05083465576172
+          ],
+          "score": 0.9125378131866455
+        },
+        {
+          "image_id": 187236,
+          "category_id": 63,
+          "bbox": [
+            18.68206024169922, 6.487441062927246, 616.0554504394531,
+            463.4574365615845
+          ],
+          "score": 0.5567318797111511
+        },
+        {
+          "image_id": 370711,
+          "category_id": 28,
+          "bbox": [
+            14.552001953125, 12.492799758911133, 611.4518737792969,
+            424.63820457458496
+          ],
+          "score": 0.7974996566772461
+        },
+        {
+          "image_id": 235836,
+          "category_id": 1,
+          "bbox": [
+            231.72750121355057, 275.5692672729492, 154.55444860458374,
+            329.3864440917969
+          ],
+          "score": 0.99870765209198
+        },
+        {
+          "image_id": 235836,
+          "category_id": 62,
+          "bbox": [
+            73.87151238322258, 230.2801513671875, 144.844605833292,
+            173.1454086303711
+          ],
+          "score": 0.9670372009277344
+        },
+        {
+          "image_id": 235836,
+          "category_id": 62,
+          "bbox": [
+            352.034964799881, 227.06405639648438, 76.14922785758972,
+            189.46395874023438
+          ],
+          "score": 0.7111340761184692
+        },
+        {
+          "image_id": 223959,
+          "category_id": 1,
+          "bbox": [
+            152.3265838623047, 20.046062469482422, 160.75687408447266,
+            599.5553779602051
+          ],
+          "score": 0.950151801109314
+        },
+        {
+          "image_id": 223959,
+          "category_id": 43,
+          "bbox": [
+            138.98943901062012, 15.936260223388672, 53.80505561828613,
+            162.21487045288086
+          ],
+          "score": 0.888922393321991
+        },
+        {
+          "image_id": 541773,
+          "category_id": 67,
+          "bbox": [
+            6.212520599365234, 256.21971130371094, 369.79997634887695,
+            217.43350982666016
+          ],
+          "score": 0.9062532186508179
+        },
+        {
+          "image_id": 541773,
+          "category_id": 1,
+          "bbox": [
+            269.6031951904297, 3.793973922729492, 318.29795837402344,
+            465.7986831665039
+          ],
+          "score": 0.8963114619255066
+        },
+        {
+          "image_id": 541773,
+          "category_id": 44,
+          "bbox": [
+            169.07880783081055, 265.3139019012451, 51.06536865234375,
+            155.36212921142578
+          ],
+          "score": 0.7785965800285339
+        },
+        {
+          "image_id": 176446,
+          "category_id": 84,
+          "bbox": [
+            204.67878341674805, 9.57909107208252, 439.21030044555664,
+            263.50600719451904
+          ],
+          "score": 0.9529333710670471
+        },
+        {
+          "image_id": 176446,
+          "category_id": 73,
+          "bbox": [
+            -8.916358947753906, 21.03105068206787, 236.55776977539062,
+            266.0732316970825
+          ],
+          "score": 0.9016075730323792
+        },
+        {
+          "image_id": 493566,
+          "category_id": 7,
+          "bbox": [
+            73.03993225097656, 63.86458110809326, 554.7320556640625,
+            163.5133924484253
+          ],
+          "score": 0.9655703902244568
+        },
+        {
+          "image_id": 461573,
+          "category_id": 15,
+          "bbox": [
+            205.7962864637375, 51.99715876579285, 275.7216840982437,
+            272.59071946144104
+          ],
+          "score": 0.9411246180534363
+        },
+        {
+          "image_id": 461573,
+          "category_id": 15,
+          "bbox": [
+            134.78609919548035, 50.9165620803833, 173.76407980918884,
+            192.03195810317993
+          ],
+          "score": 0.9008693695068359
+        },
+        {
+          "image_id": 338901,
+          "category_id": 18,
+          "bbox": [
+            256.5301322937012, 143.29410552978516, 379.1607856750488,
+            224.66102600097656
+          ],
+          "score": 0.963767945766449
+        },
+        {
+          "image_id": 338901,
+          "category_id": 63,
+          "bbox": [
+            37.72819519042969, 19.72276210784912, 598.8759613037109,
+            454.8648691177368
+          ],
+          "score": 0.7685033679008484
+        },
+        {
+          "image_id": 383838,
+          "category_id": 1,
+          "bbox": [
+            361.83727264404297, 283.63681304454803, 180.31349182128906,
+            297.5471431016922
+          ],
+          "score": 0.9814162850379944
+        },
+        {
+          "image_id": 383838,
+          "category_id": 1,
+          "bbox": [
+            -2.4518585205078125, 11.884915709495544, 432.3558044433594,
+            570.7271572351456
+          ],
+          "score": 0.9232162237167358
+        },
+        {
+          "image_id": 448448,
+          "category_id": 25,
+          "bbox": [
+            145.47296524047852, 5.037689208984375, 485.3706169128418,
+            244.68987464904785
+          ],
+          "score": 0.9538787603378296
+        },
+        {
+          "image_id": 448448,
+          "category_id": 25,
+          "bbox": [
+            124.80073928833008, 60.890135765075684, 507.9650688171387,
+            414.7996187210083
+          ],
+          "score": 0.9362382888793945
+        },
+        {
+          "image_id": 185890,
+          "category_id": 1,
+          "bbox": [
+            21.027987077832222, 40.108795166015625, 252.70818500220776,
+            576.2794494628906
+          ],
+          "score": 0.9920938611030579
+        },
+        {
+          "image_id": 185890,
+          "category_id": 1,
+          "bbox": [
+            271.58460760116577, 74.63068008422852, 220.68502020835876,
+            461.28644943237305
+          ],
+          "score": 0.9911871552467346
+        },
+        {
+          "image_id": 185890,
+          "category_id": 75,
+          "bbox": [
+            453.5746881365776, 157.23100662231445, 33.419605016708374,
+            32.17308044433594
+          ],
+          "score": 0.6974178552627563
+        },
+        {
+          "image_id": 185890,
+          "category_id": 1,
+          "bbox": [
+            -0.9044971615076065, 49.80216026306152, 34.99211246520281,
+            180.6245517730713
+          ],
+          "score": 0.6230788826942444
+        },
+        {
+          "image_id": 272049,
+          "category_id": 8,
+          "bbox": [
+            49.802608489990234, 33.922787845134735, 456.11230850219727,
+            391.458593249321
+          ],
+          "score": 0.9603278636932373
+        },
+        {
+          "image_id": 29675,
+          "category_id": 58,
+          "bbox": [
+            72.65309870243073, 234.2835235595703, 320.05809211730957,
+            247.08274841308594
+          ],
+          "score": 0.9694872498512268
+        },
+        {
+          "image_id": 29675,
+          "category_id": 58,
+          "bbox": [
+            31.53115451335907, 154.37487602233887, 273.3884049654007,
+            184.27964210510254
+          ],
+          "score": 0.9295675754547119
+        },
+        {
+          "image_id": 29675,
+          "category_id": 58,
+          "bbox": [
+            145.49646043777466, 353.9198303222656, 335.5996587276459,
+            279.5167541503906
+          ],
+          "score": 0.80536949634552
+        },
+        {
+          "image_id": 284764,
+          "category_id": 1,
+          "bbox": [
+            7.869701385498047, 0.058435916900634766, 516.9183540344238,
+            423.5313854813576
+          ],
+          "score": 0.7444786429405212
+        },
+        {
+          "image_id": 284764,
+          "category_id": 67,
+          "bbox": [
+            358.2624816894531, 132.8700149655342, 279.56275939941406,
+            204.07893908023834
+          ],
+          "score": 0.5998348593711853
+        },
+        {
+          "image_id": 491090,
+          "category_id": 1,
+          "bbox": [
+            104.61603462696075, 52.22047805786133, 241.82371652126312,
+            448.52453231811523
+          ],
+          "score": 0.9945113062858582
+        },
+        {
+          "image_id": 491090,
+          "category_id": 4,
+          "bbox": [
+            6.631783545017242, 227.28837966918945, 456.9943258166313,
+            390.99714279174805
+          ],
+          "score": 0.7636040449142456
+        },
+        {
+          "image_id": 206838,
+          "category_id": 19,
+          "bbox": [
+            320.8837127685547, 166.98772430419922, 242.70065307617188,
+            269.6909523010254
+          ],
+          "score": 0.9836293458938599
+        },
+        {
+          "image_id": 206838,
+          "category_id": 1,
+          "bbox": [
+            331.7097473144531, 95.43684482574463, 148.69529724121094,
+            300.4652166366577
+          ],
+          "score": 0.9658259749412537
+        },
+        {
+          "image_id": 206838,
+          "category_id": 19,
+          "bbox": [
+            111.69943809509277, 156.6011381149292, 188.7041187286377,
+            190.08938312530518
+          ],
+          "score": 0.9433189630508423
+        },
+        {
+          "image_id": 272136,
+          "category_id": 5,
+          "bbox": [
+            42.2258186340332, 12.148045897483826, 594.262523651123,
+            410.62326300144196
+          ],
+          "score": 0.8992302417755127
+        },
+        {
+          "image_id": 471789,
+          "category_id": 1,
+          "bbox": [
+            498.6836624145508, 386.19638442993164, 29.430923461914062,
+            65.47599792480469
+          ],
+          "score": 0.9146507382392883
+        },
+        {
+          "image_id": 471789,
+          "category_id": 1,
+          "bbox": [
+            444.69032287597656, 392.00406074523926, 23.7127685546875,
+            58.22925567626953
+          ],
+          "score": 0.8871989846229553
+        },
+        {
+          "image_id": 471789,
+          "category_id": 38,
+          "bbox": [
+            315.31288146972656, 37.248133420944214, 97.20916748046875,
+            111.50676369667053
+          ],
+          "score": 0.689878523349762
+        },
+        {
+          "image_id": 471789,
+          "category_id": 1,
+          "bbox": [
+            117.51981735229492, 355.6354522705078, 16.091957092285156,
+            27.299480438232422
+          ],
+          "score": 0.6589650511741638
+        },
+        {
+          "image_id": 351362,
+          "category_id": 81,
+          "bbox": [
+            304.49164724349976, 411.80912017822266, 103.33229899406433,
+            90.94657897949219
+          ],
+          "score": 0.6801182627677917
+        }
+      ],
+      "displayed": [
+        {
+          "image_id": 336356,
+          "category_id": 1,
+          "bbox": [
+            116.38737052679062, 7.117605209350586, 243.04241013526917,
+            314.20090675354004
+          ],
+          "score": 0.9983110427856445
+        },
+        {
+          "image_id": 336356,
+          "category_id": 1,
+          "bbox": [
+            -0.7704709470272064, 31.070842742919922, 132.10738298296928,
+            256.6098976135254
+          ],
+          "score": 0.9094557762145996
+        },
+        {
+          "image_id": 336356,
+          "category_id": 59,
+          "bbox": [
+            -0.2176203429698944, 421.5079116821289, 324.70855101943016,
+            215.91697692871094
+          ],
+          "score": 0.792935848236084
+        },
+        {
+          "image_id": 336356,
+          "category_id": 67,
+          "bbox": [
+            0.6067943871021271, 240.07970809936523, 417.4793867766857,
+            402.2705268859863
+          ],
+          "score": 0.7815220355987549
+        },
+        {
+          "image_id": 336356,
+          "category_id": 46,
+          "bbox": [
+            64.43878209590912, 267.79624938964844, 61.51958227157593,
+            149.4556427001953
+          ],
+          "score": 0.761045515537262
+        },
+        {
+          "image_id": 336356,
+          "category_id": 59,
+          "bbox": [
+            124.38040372729301, 291.33724212646484, 203.80308642983437,
+            78.69956970214844
+          ],
+          "score": 0.6832348704338074
+        },
+        {
+          "image_id": 485972,
+          "category_id": 61,
+          "bbox": [
+            27.305951356887817, 329.3935775756836, 264.142168879509,
+            243.7548828125
+          ],
+          "score": 0.9565231800079346
+        },
+        {
+          "image_id": 485972,
+          "category_id": 67,
+          "bbox": [
+            -2.213840961456299, 216.86267852783203, 431.12661051750183,
+            426.53011322021484
+          ],
+          "score": 0.7376517653465271
+        },
+        {
+          "image_id": 485972,
+          "category_id": 57,
+          "bbox": [
+            153.72027450799942, 116.7870044708252, 251.53571981191635,
+            175.38405418395996
+          ],
+          "score": 0.6226407289505005
+        },
+        {
+          "image_id": 14226,
+          "category_id": 73,
+          "bbox": [
+            221.2755584716797, 235.47889709472656, 214.8352813720703,
+            131.09613418579102
+          ],
+          "score": 0.9915047287940979
+        },
+        {
+          "image_id": 14226,
+          "category_id": 1,
+          "bbox": [
+            200.04766464233398, 35.08957386016846, 344.555606842041,
+            321.7069387435913
+          ],
+          "score": 0.9877649545669556
+        },
+        {
+          "image_id": 14226,
+          "category_id": 62,
+          "bbox": [
+            393.8037872314453, 17.914938926696777, 191.86065673828125,
+            242.87216663360596
+          ],
+          "score": 0.966383159160614
+        },
+        {
+          "image_id": 189698,
+          "category_id": 3,
+          "bbox": [
+            99.12205696105957, 292.6609330177307, 168.279447555542,
+            124.61315822601318
+          ],
+          "score": 0.7930522561073303
+        },
+        {
+          "image_id": 324258,
+          "category_id": 1,
+          "bbox": [
+            365.2639389038086, 66.29659652709961, 208.20762634277344,
+            407.8587341308594
+          ],
+          "score": 0.9335172176361084
+        },
+        {
+          "image_id": 324258,
+          "category_id": 1,
+          "bbox": [
+            170.77116012573242, 45.14200687408447, 390.4599952697754,
+            424.4390630722046
+          ],
+          "score": 0.9254257678985596
+        },
+        {
+          "image_id": 565989,
+          "category_id": 85,
+          "bbox": [
+            183.7082576751709, 273.5670280456543, 67.54926681518555,
+            45.447120666503906
+          ],
+          "score": 0.7593129873275757
+        },
+        {
+          "image_id": 256192,
+          "category_id": 4,
+          "bbox": [
+            61.841487884521484, 68.43782901763916, 512.0444679260254,
+            373.33592891693115
+          ],
+          "score": 0.9815672039985657
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            99.14566040039062, 38.37256193161011, 44.96784210205078,
+            143.0508828163147
+          ],
+          "score": 0.8258653879165649
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            506.5142822265625, 75.61868190765381, 32.57164001464844,
+            86.72916412353516
+          ],
+          "score": 0.6374394297599792
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            8.187153339385986, 48.18875312805176, 44.39452886581421,
+            131.3593339920044
+          ],
+          "score": 0.5910099148750305
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            546.9527435302734, 75.7523775100708, 24.633941650390625,
+            85.84633827209473
+          ],
+          "score": 0.5907911658287048
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            21.310970783233643, 46.79227352142334, 43.36402654647827,
+            132.97961711883545
+          ],
+          "score": 0.5854451656341553
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            579.163932800293, 76.12079858779907, 29.03900146484375,
+            84.72121953964233
+          ],
+          "score": 0.5746117234230042
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            268.31066131591797, 238.84383392333984, 133.01658630371094,
+            186.42941999435425
+          ],
+          "score": 0.9813376069068909
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            29.55625057220459, 184.33393836021423, 147.36992359161377,
+            229.47096633911133
+          ],
+          "score": 0.9809293150901794
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            469.0349578857422, 251.7898190021515, 128.02711486816406,
+            172.90829420089722
+          ],
+          "score": 0.9419240951538086
+        },
+        {
+          "image_id": 467176,
+          "category_id": 72,
+          "bbox": [
+            342.3514175415039, 94.70587933063507, 139.8736572265625,
+            112.54433608055115
+          ],
+          "score": 0.8848090171813965
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            224.5743179321289, 156.44935882091522, 9.145927429199219,
+            25.35412621498108
+          ],
+          "score": 0.8507007956504822
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            226.3321304321289, 93.70928764343262, 6.544227600097656,
+            19.60581862926483
+          ],
+          "score": 0.6922188997268677
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            229.29834365844727, 118.3539205789566, 6.902275085449219,
+            18.665809869766235
+          ],
+          "score": 0.6824833154678345
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            247.20428466796875, 88.76034784317017, 7.435646057128906,
+            22.127508997917175
+          ],
+          "score": 0.5659607648849487
+        },
+        {
+          "image_id": 290081,
+          "category_id": 55,
+          "bbox": [
+            9.92195463180542, 47.33367097377777, 598.2537603378296,
+            412.36218416690826
+          ],
+          "score": 0.8926489353179932
+        },
+        {
+          "image_id": 290081,
+          "category_id": 51,
+          "bbox": [
+            26.11027157306671, 345.6205530166626, 586.3886021375656,
+            262.86011838912964
+          ],
+          "score": 0.7458916306495667
+        },
+        {
+          "image_id": 187236,
+          "category_id": 17,
+          "bbox": [
+            259.0926170349121, 53.317108154296875, 305.7339668273926,
+            163.36687088012695
+          ],
+          "score": 0.9892961978912354
+        },
+        {
+          "image_id": 187236,
+          "category_id": 17,
+          "bbox": [
+            -0.31040191650390625, 229.24796104431152, 414.0422821044922,
+            246.05083465576172
+          ],
+          "score": 0.9125378131866455
+        },
+        {
+          "image_id": 187236,
+          "category_id": 63,
+          "bbox": [
+            18.68206024169922, 6.487441062927246, 616.0554504394531,
+            463.4574365615845
+          ],
+          "score": 0.5567318797111511
+        },
+        {
+          "image_id": 370711,
+          "category_id": 28,
+          "bbox": [
+            14.552001953125, 12.492799758911133, 611.4518737792969,
+            424.63820457458496
+          ],
+          "score": 0.7974996566772461
+        },
+        {
+          "image_id": 235836,
+          "category_id": 1,
+          "bbox": [
+            231.72750121355057, 275.5692672729492, 154.55444860458374,
+            329.3864440917969
+          ],
+          "score": 0.99870765209198
+        },
+        {
+          "image_id": 235836,
+          "category_id": 62,
+          "bbox": [
+            73.87151238322258, 230.2801513671875, 144.844605833292,
+            173.1454086303711
+          ],
+          "score": 0.9670372009277344
+        },
+        {
+          "image_id": 235836,
+          "category_id": 62,
+          "bbox": [
+            352.034964799881, 227.06405639648438, 76.14922785758972,
+            189.46395874023438
+          ],
+          "score": 0.7111340761184692
+        },
+        {
+          "image_id": 223959,
+          "category_id": 1,
+          "bbox": [
+            152.3265838623047, 20.046062469482422, 160.75687408447266,
+            599.5553779602051
+          ],
+          "score": 0.950151801109314
+        },
+        {
+          "image_id": 223959,
+          "category_id": 43,
+          "bbox": [
+            138.98943901062012, 15.936260223388672, 53.80505561828613,
+            162.21487045288086
+          ],
+          "score": 0.888922393321991
+        },
+        {
+          "image_id": 541773,
+          "category_id": 67,
+          "bbox": [
+            6.212520599365234, 256.21971130371094, 369.79997634887695,
+            217.43350982666016
+          ],
+          "score": 0.9062532186508179
+        },
+        {
+          "image_id": 541773,
+          "category_id": 1,
+          "bbox": [
+            269.6031951904297, 3.793973922729492, 318.29795837402344,
+            465.7986831665039
+          ],
+          "score": 0.8963114619255066
+        },
+        {
+          "image_id": 541773,
+          "category_id": 44,
+          "bbox": [
+            169.07880783081055, 265.3139019012451, 51.06536865234375,
+            155.36212921142578
+          ],
+          "score": 0.7785965800285339
+        },
+        {
+          "image_id": 176446,
+          "category_id": 84,
+          "bbox": [
+            204.67878341674805, 9.57909107208252, 439.21030044555664,
+            263.50600719451904
+          ],
+          "score": 0.9529333710670471
+        },
+        {
+          "image_id": 176446,
+          "category_id": 73,
+          "bbox": [
+            -8.916358947753906, 21.03105068206787, 236.55776977539062,
+            266.0732316970825
+          ],
+          "score": 0.9016075730323792
+        },
+        {
+          "image_id": 493566,
+          "category_id": 7,
+          "bbox": [
+            73.03993225097656, 63.86458110809326, 554.7320556640625,
+            163.5133924484253
+          ],
+          "score": 0.9655703902244568
+        },
+        {
+          "image_id": 461573,
+          "category_id": 15,
+          "bbox": [
+            205.7962864637375, 51.99715876579285, 275.7216840982437,
+            272.59071946144104
+          ],
+          "score": 0.9411246180534363
+        },
+        {
+          "image_id": 461573,
+          "category_id": 15,
+          "bbox": [
+            134.78609919548035, 50.9165620803833, 173.76407980918884,
+            192.03195810317993
+          ],
+          "score": 0.9008693695068359
+        },
+        {
+          "image_id": 338901,
+          "category_id": 18,
+          "bbox": [
+            256.5301322937012, 143.29410552978516, 379.1607856750488,
+            224.66102600097656
+          ],
+          "score": 0.963767945766449
+        },
+        {
+          "image_id": 338901,
+          "category_id": 63,
+          "bbox": [
+            37.72819519042969, 19.72276210784912, 598.8759613037109,
+            454.8648691177368
+          ],
+          "score": 0.7685033679008484
+        },
+        {
+          "image_id": 383838,
+          "category_id": 1,
+          "bbox": [
+            361.83727264404297, 283.63681304454803, 180.31349182128906,
+            297.5471431016922
+          ],
+          "score": 0.9814162850379944
+        },
+        {
+          "image_id": 383838,
+          "category_id": 1,
+          "bbox": [
+            -2.4518585205078125, 11.884915709495544, 432.3558044433594,
+            570.7271572351456
+          ],
+          "score": 0.9232162237167358
+        },
+        {
+          "image_id": 448448,
+          "category_id": 25,
+          "bbox": [
+            145.47296524047852, 5.037689208984375, 485.3706169128418,
+            244.68987464904785
+          ],
+          "score": 0.9538787603378296
+        },
+        {
+          "image_id": 448448,
+          "category_id": 25,
+          "bbox": [
+            124.80073928833008, 60.890135765075684, 507.9650688171387,
+            414.7996187210083
+          ],
+          "score": 0.9362382888793945
+        },
+        {
+          "image_id": 185890,
+          "category_id": 1,
+          "bbox": [
+            21.027987077832222, 40.108795166015625, 252.70818500220776,
+            576.2794494628906
+          ],
+          "score": 0.9920938611030579
+        },
+        {
+          "image_id": 185890,
+          "category_id": 1,
+          "bbox": [
+            271.58460760116577, 74.63068008422852, 220.68502020835876,
+            461.28644943237305
+          ],
+          "score": 0.9911871552467346
+        },
+        {
+          "image_id": 185890,
+          "category_id": 75,
+          "bbox": [
+            453.5746881365776, 157.23100662231445, 33.419605016708374,
+            32.17308044433594
+          ],
+          "score": 0.6974178552627563
+        },
+        {
+          "image_id": 185890,
+          "category_id": 1,
+          "bbox": [
+            -0.9044971615076065, 49.80216026306152, 34.99211246520281,
+            180.6245517730713
+          ],
+          "score": 0.6230788826942444
+        },
+        {
+          "image_id": 272049,
+          "category_id": 8,
+          "bbox": [
+            49.802608489990234, 33.922787845134735, 456.11230850219727,
+            391.458593249321
+          ],
+          "score": 0.9603278636932373
+        },
+        {
+          "image_id": 29675,
+          "category_id": 58,
+          "bbox": [
+            72.65309870243073, 234.2835235595703, 320.05809211730957,
+            247.08274841308594
+          ],
+          "score": 0.9694872498512268
+        },
+        {
+          "image_id": 29675,
+          "category_id": 58,
+          "bbox": [
+            31.53115451335907, 154.37487602233887, 273.3884049654007,
+            184.27964210510254
+          ],
+          "score": 0.9295675754547119
+        },
+        {
+          "image_id": 29675,
+          "category_id": 58,
+          "bbox": [
+            145.49646043777466, 353.9198303222656, 335.5996587276459,
+            279.5167541503906
+          ],
+          "score": 0.80536949634552
+        },
+        {
+          "image_id": 284764,
+          "category_id": 1,
+          "bbox": [
+            7.869701385498047, 0.058435916900634766, 516.9183540344238,
+            423.5313854813576
+          ],
+          "score": 0.7444786429405212
+        },
+        {
+          "image_id": 284764,
+          "category_id": 67,
+          "bbox": [
+            358.2624816894531, 132.8700149655342, 279.56275939941406,
+            204.07893908023834
+          ],
+          "score": 0.5998348593711853
+        },
+        {
+          "image_id": 491090,
+          "category_id": 1,
+          "bbox": [
+            104.61603462696075, 52.22047805786133, 241.82371652126312,
+            448.52453231811523
+          ],
+          "score": 0.9945113062858582
+        },
+        {
+          "image_id": 491090,
+          "category_id": 4,
+          "bbox": [
+            6.631783545017242, 227.28837966918945, 456.9943258166313,
+            390.99714279174805
+          ],
+          "score": 0.7636040449142456
+        },
+        {
+          "image_id": 206838,
+          "category_id": 19,
+          "bbox": [
+            320.8837127685547, 166.98772430419922, 242.70065307617188,
+            269.6909523010254
+          ],
+          "score": 0.9836293458938599
+        },
+        {
+          "image_id": 206838,
+          "category_id": 1,
+          "bbox": [
+            331.7097473144531, 95.43684482574463, 148.69529724121094,
+            300.4652166366577
+          ],
+          "score": 0.9658259749412537
+        },
+        {
+          "image_id": 206838,
+          "category_id": 19,
+          "bbox": [
+            111.69943809509277, 156.6011381149292, 188.7041187286377,
+            190.08938312530518
+          ],
+          "score": 0.9433189630508423
+        },
+        {
+          "image_id": 272136,
+          "category_id": 5,
+          "bbox": [
+            42.2258186340332, 12.148045897483826, 594.262523651123,
+            410.62326300144196
+          ],
+          "score": 0.8992302417755127
+        },
+        {
+          "image_id": 471789,
+          "category_id": 1,
+          "bbox": [
+            498.6836624145508, 386.19638442993164, 29.430923461914062,
+            65.47599792480469
+          ],
+          "score": 0.9146507382392883
+        },
+        {
+          "image_id": 471789,
+          "category_id": 1,
+          "bbox": [
+            444.69032287597656, 392.00406074523926, 23.7127685546875,
+            58.22925567626953
+          ],
+          "score": 0.8871989846229553
+        },
+        {
+          "image_id": 471789,
+          "category_id": 38,
+          "bbox": [
+            315.31288146972656, 37.248133420944214, 97.20916748046875,
+            111.50676369667053
+          ],
+          "score": 0.689878523349762
+        },
+        {
+          "image_id": 471789,
+          "category_id": 1,
+          "bbox": [
+            117.51981735229492, 355.6354522705078, 16.091957092285156,
+            27.299480438232422
+          ],
+          "score": 0.6589650511741638
+        },
+        {
+          "image_id": 351362,
+          "category_id": 81,
+          "bbox": [
+            304.49164724349976, 411.80912017822266, 103.33229899406433,
+            90.94657897949219
+          ],
+          "score": 0.6801182627677917
+        }
+      ]
+    },
+    {
+      "name": "candidate-minScore-0.40",
+      "minScore": 0.4,
+      "images": [
+        {
+          "id": 336356,
+          "split": "validation",
+          "ms": 2893.7592139999906,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 323678208
+        },
+        {
+          "id": 485972,
+          "split": "validation",
+          "ms": 2752.433057999995,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 326561792
+        },
+        {
+          "id": 14226,
+          "split": "validation",
+          "ms": 2744.118695000012,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 326692864
+        },
+        {
+          "id": 189698,
+          "split": "validation",
+          "ms": 3303.8454110000166,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 332328960
+        },
+        {
+          "id": 22623,
+          "split": "validation",
+          "ms": 3038.204682999989,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 332328960
+        },
+        {
+          "id": 324258,
+          "split": "validation",
+          "ms": 3175.491095000005,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 332328960
+        },
+        {
+          "id": 565989,
+          "split": "validation",
+          "ms": 2854.944374999992,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 332328960
+        },
+        {
+          "id": 256192,
+          "split": "validation",
+          "ms": 2824.1669589999947,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 332328960
+        },
+        {
+          "id": 467176,
+          "split": "validation",
+          "ms": 2811.7050330000056,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 332328960
+        },
+        {
+          "id": 290081,
+          "split": "validation",
+          "ms": 3012.4204920000047,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 335736832
+        },
+        {
+          "id": 187236,
+          "split": "validation",
+          "ms": 2710.9766679999884,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 335736832
+        },
+        {
+          "id": 370711,
+          "split": "validation",
+          "ms": 2823.2101459999976,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 335736832
+        },
+        {
+          "id": 235836,
+          "split": "validation",
+          "ms": 2805.8913239999965,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 335736832
+        },
+        {
+          "id": 223959,
+          "split": "validation",
+          "ms": 2699.2475130000093,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 335736832
+        },
+        {
+          "id": 541773,
+          "split": "validation",
+          "ms": 2673.096114999993,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 335736832
+        },
+        {
+          "id": 176446,
+          "split": "validation",
+          "ms": 2707.922148999991,
+          "memory": {
+            "unreliable": true,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "numTensors": 262,
+            "numDataBuffers": 262,
+            "numBytes": 18034528
+          },
+          "rss": 335736832
+        }
+      ],
+      "predictions": [
+        {
+          "image_id": 336356,
+          "category_id": 1,
+          "bbox": [
+            116.38737052679062, 7.117605209350586, 243.04241013526917,
+            314.20090675354004
+          ],
+          "score": 0.9983110427856445
+        },
+        {
+          "image_id": 336356,
+          "category_id": 1,
+          "bbox": [
+            -0.7704709470272064, 31.070842742919922, 132.10738298296928,
+            256.6098976135254
+          ],
+          "score": 0.9094557762145996
+        },
+        {
+          "image_id": 336356,
+          "category_id": 59,
+          "bbox": [
+            -0.2176203429698944, 421.5079116821289, 324.70855101943016,
+            215.91697692871094
+          ],
+          "score": 0.792935848236084
+        },
+        {
+          "image_id": 336356,
+          "category_id": 46,
+          "bbox": [
+            64.43878209590912, 267.79624938964844, 61.51958227157593,
+            149.4556427001953
+          ],
+          "score": 0.761045515537262
+        },
+        {
+          "image_id": 336356,
+          "category_id": 59,
+          "bbox": [
+            124.38040372729301, 291.33724212646484, 203.80308642983437,
+            78.69956970214844
+          ],
+          "score": 0.6832348704338074
+        },
+        {
+          "image_id": 336356,
+          "category_id": 47,
+          "bbox": [
+            307.88039404153824, 259.3165588378906, 76.1713194847107,
+            172.11326599121094
+          ],
+          "score": 0.5458377003669739
+        },
+        {
+          "image_id": 336356,
+          "category_id": 62,
+          "bbox": [
+            373.97192507982254, 145.9915542602539, 50.6386923789978,
+            167.81082153320312
+          ],
+          "score": 0.4142250716686249
+        },
+        {
+          "image_id": 485972,
+          "category_id": 61,
+          "bbox": [
+            27.305951356887817, 329.3935775756836, 264.142168879509,
+            243.7548828125
+          ],
+          "score": 0.9565231800079346
+        },
+        {
+          "image_id": 485972,
+          "category_id": 67,
+          "bbox": [
+            -2.213840961456299, 216.86267852783203, 431.12661051750183,
+            426.53011322021484
+          ],
+          "score": 0.7376517653465271
+        },
+        {
+          "image_id": 485972,
+          "category_id": 57,
+          "bbox": [
+            153.72027450799942, 116.7870044708252, 251.53571981191635,
+            175.38405418395996
+          ],
+          "score": 0.6226407289505005
+        },
+        {
+          "image_id": 485972,
+          "category_id": 48,
+          "bbox": [
+            307.8721042871475, 423.43910217285156, 87.42396712303162,
+            224.07684326171875
+          ],
+          "score": 0.49283790588378906
+        },
+        {
+          "image_id": 14226,
+          "category_id": 73,
+          "bbox": [
+            221.2755584716797, 235.47889709472656, 214.8352813720703,
+            131.09613418579102
+          ],
+          "score": 0.9915047287940979
+        },
+        {
+          "image_id": 14226,
+          "category_id": 1,
+          "bbox": [
+            200.04766464233398, 35.08957386016846, 344.555606842041,
+            321.7069387435913
+          ],
+          "score": 0.9877649545669556
+        },
+        {
+          "image_id": 14226,
+          "category_id": 62,
+          "bbox": [
+            393.8037872314453, 17.914938926696777, 191.86065673828125,
+            242.87216663360596
+          ],
+          "score": 0.966383159160614
+        },
+        {
+          "image_id": 14226,
+          "category_id": 67,
+          "bbox": [
+            141.79622650146484, 302.95921325683594, 491.778564453125,
+            177.6544189453125
+          ],
+          "score": 0.517021119594574
+        },
+        {
+          "image_id": 189698,
+          "category_id": 3,
+          "bbox": [
+            99.12205696105957, 292.6609330177307, 168.279447555542,
+            124.61315822601318
+          ],
+          "score": 0.7930522561073303
+        },
+        {
+          "image_id": 324258,
+          "category_id": 1,
+          "bbox": [
+            365.2639389038086, 66.29659652709961, 208.20762634277344,
+            407.8587341308594
+          ],
+          "score": 0.9335172176361084
+        },
+        {
+          "image_id": 565989,
+          "category_id": 85,
+          "bbox": [
+            183.7082576751709, 273.5670280456543, 67.54926681518555,
+            45.447120666503906
+          ],
+          "score": 0.7593129873275757
+        },
+        {
+          "image_id": 256192,
+          "category_id": 4,
+          "bbox": [
+            61.841487884521484, 68.43782901763916, 512.0444679260254,
+            373.33592891693115
+          ],
+          "score": 0.9815672039985657
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            99.14566040039062, 38.37256193161011, 44.96784210205078,
+            143.0508828163147
+          ],
+          "score": 0.8258653879165649
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            506.5142822265625, 75.61868190765381, 32.57164001464844,
+            86.72916412353516
+          ],
+          "score": 0.6374394297599792
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            8.187153339385986, 48.18875312805176, 44.39452886581421,
+            131.3593339920044
+          ],
+          "score": 0.5910099148750305
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            546.9527435302734, 75.7523775100708, 24.633941650390625,
+            85.84633827209473
+          ],
+          "score": 0.5907911658287048
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            579.163932800293, 76.12079858779907, 29.03900146484375,
+            84.72121953964233
+          ],
+          "score": 0.5746117234230042
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            27.984580993652344, 23.919739723205566, 599.0625762939453,
+            145.3820514678955
+          ],
+          "score": 0.5453383922576904
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            162.41823196411133, 26.488476991653442, 38.808555603027344,
+            68.12815546989441
+          ],
+          "score": 0.48362109065055847
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            268.31066131591797, 238.84383392333984, 133.01658630371094,
+            186.42941999435425
+          ],
+          "score": 0.9813376069068909
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            29.55625057220459, 184.33393836021423, 147.36992359161377,
+            229.47096633911133
+          ],
+          "score": 0.9809293150901794
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            469.0349578857422, 251.7898190021515, 128.02711486816406,
+            172.90829420089722
+          ],
+          "score": 0.9419240951538086
+        },
+        {
+          "image_id": 467176,
+          "category_id": 72,
+          "bbox": [
+            342.3514175415039, 94.70587933063507, 139.8736572265625,
+            112.54433608055115
+          ],
+          "score": 0.8848090171813965
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            224.5743179321289, 156.44935882091522, 9.145927429199219,
+            25.35412621498108
+          ],
+          "score": 0.8507007956504822
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            226.3321304321289, 93.70928764343262, 6.544227600097656,
+            19.60581862926483
+          ],
+          "score": 0.6922188997268677
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            229.29834365844727, 118.3539205789566, 6.902275085449219,
+            18.665809869766235
+          ],
+          "score": 0.6824833154678345
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            247.20428466796875, 88.76034784317017, 7.435646057128906,
+            22.127508997917175
+          ],
+          "score": 0.5659607648849487
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            249.79314804077148, 157.21743762493134, 9.27337646484375,
+            26.69558548927307
+          ],
+          "score": 0.5502970218658447
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            249.96103286743164, 114.95529687404633, 6.655731201171875,
+            24.074862241744995
+          ],
+          "score": 0.5302333831787109
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            124.78890419006348, 72.88067317008972, 166.77206993103027,
+            160.63793683052063
+          ],
+          "score": 0.4647095203399658
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            157.52765655517578, 160.7353242635727, 13.011932373046875,
+            18.80713963508606
+          ],
+          "score": 0.42647844552993774
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            185.30776977539062, 157.06600558757782, 10.281181335449219,
+            19.869306802749634
+          ],
+          "score": 0.42355698347091675
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            201.4859390258789, 93.00566184520721, 7.506446838378906,
+            20.067232251167297
+          ],
+          "score": 0.4024873375892639
+        },
+        {
+          "image_id": 290081,
+          "category_id": 55,
+          "bbox": [
+            9.92195463180542, 47.33367097377777, 598.2537603378296,
+            412.36218416690826
+          ],
+          "score": 0.8926489353179932
+        },
+        {
+          "image_id": 290081,
+          "category_id": 51,
+          "bbox": [
+            26.11027157306671, 345.6205530166626, 586.3886021375656,
+            262.86011838912964
+          ],
+          "score": 0.7458916306495667
+        },
+        {
+          "image_id": 290081,
+          "category_id": 67,
+          "bbox": [
+            -2.4779078364372253, 416.20943212509155, 265.34926146268845,
+            193.8419108390808
+          ],
+          "score": 0.43288955092430115
+        },
+        {
+          "image_id": 187236,
+          "category_id": 17,
+          "bbox": [
+            259.0926170349121, 53.317108154296875, 305.7339668273926,
+            163.36687088012695
+          ],
+          "score": 0.9892961978912354
+        },
+        {
+          "image_id": 187236,
+          "category_id": 17,
+          "bbox": [
+            -0.31040191650390625, 229.24796104431152, 414.0422821044922,
+            246.05083465576172
+          ],
+          "score": 0.9125378131866455
+        },
+        {
+          "image_id": 187236,
+          "category_id": 63,
+          "bbox": [
+            18.68206024169922, 6.487441062927246, 616.0554504394531,
+            463.4574365615845
+          ],
+          "score": 0.5567318797111511
+        },
+        {
+          "image_id": 370711,
+          "category_id": 28,
+          "bbox": [
+            14.552001953125, 12.492799758911133, 611.4518737792969,
+            424.63820457458496
+          ],
+          "score": 0.7974996566772461
+        },
+        {
+          "image_id": 370711,
+          "category_id": 28,
+          "bbox": [
+            126.14816665649414, 141.98965072631836, 113.81752014160156,
+            233.05938720703125
+          ],
+          "score": 0.5244476199150085
+        },
+        {
+          "image_id": 370711,
+          "category_id": 1,
+          "bbox": [
+            286.2240219116211, 212.0229148864746, 65.6332015991211,
+            165.82489013671875
+          ],
+          "score": 0.4842625856399536
+        },
+        {
+          "image_id": 235836,
+          "category_id": 1,
+          "bbox": [
+            231.72750121355057, 275.5692672729492, 154.55444860458374,
+            329.3864440917969
+          ],
+          "score": 0.99870765209198
+        },
+        {
+          "image_id": 235836,
+          "category_id": 62,
+          "bbox": [
+            73.87151238322258, 230.2801513671875, 144.844605833292,
+            173.1454086303711
+          ],
+          "score": 0.9670372009277344
+        },
+        {
+          "image_id": 235836,
+          "category_id": 62,
+          "bbox": [
+            352.034964799881, 227.06405639648438, 76.14922785758972,
+            189.46395874023438
+          ],
+          "score": 0.7111340761184692
+        },
+        {
+          "image_id": 235836,
+          "category_id": 34,
+          "bbox": [
+            188.56089448928833, 408.9427185058594, 51.114476799964905,
+            30.856857299804688
+          ],
+          "score": 0.40196114778518677
+        },
+        {
+          "image_id": 223959,
+          "category_id": 1,
+          "bbox": [
+            152.3265838623047, 20.046062469482422, 160.75687408447266,
+            599.5553779602051
+          ],
+          "score": 0.950151801109314
+        },
+        {
+          "image_id": 223959,
+          "category_id": 43,
+          "bbox": [
+            138.98943901062012, 15.936260223388672, 53.80505561828613,
+            162.21487045288086
+          ],
+          "score": 0.888922393321991
+        },
+        {
+          "image_id": 541773,
+          "category_id": 67,
+          "bbox": [
+            6.212520599365234, 256.21971130371094, 369.79997634887695,
+            217.43350982666016
+          ],
+          "score": 0.9062532186508179
+        },
+        {
+          "image_id": 541773,
+          "category_id": 1,
+          "bbox": [
+            269.6031951904297, 3.793973922729492, 318.29795837402344,
+            465.7986831665039
+          ],
+          "score": 0.8963114619255066
+        },
+        {
+          "image_id": 541773,
+          "category_id": 44,
+          "bbox": [
+            169.07880783081055, 265.3139019012451, 51.06536865234375,
+            155.36212921142578
+          ],
+          "score": 0.7785965800285339
+        },
+        {
+          "image_id": 541773,
+          "category_id": 44,
+          "bbox": [
+            135.0981903076172, 264.14111137390137, 53.56117248535156,
+            171.08379364013672
+          ],
+          "score": 0.45030584931373596
+        },
+        {
+          "image_id": 176446,
+          "category_id": 84,
+          "bbox": [
+            204.67878341674805, 9.57909107208252, 439.21030044555664,
+            263.50600719451904
+          ],
+          "score": 0.9529333710670471
+        },
+        {
+          "image_id": 176446,
+          "category_id": 73,
+          "bbox": [
+            -8.916358947753906, 21.03105068206787, 236.55776977539062,
+            266.0732316970825
+          ],
+          "score": 0.9016075730323792
+        }
+      ],
+      "displayed": [
+        {
+          "image_id": 336356,
+          "category_id": 1,
+          "bbox": [
+            116.38737052679062, 7.117605209350586, 243.04241013526917,
+            314.20090675354004
+          ],
+          "score": 0.9983110427856445
+        },
+        {
+          "image_id": 336356,
+          "category_id": 1,
+          "bbox": [
+            -0.7704709470272064, 31.070842742919922, 132.10738298296928,
+            256.6098976135254
+          ],
+          "score": 0.9094557762145996
+        },
+        {
+          "image_id": 336356,
+          "category_id": 59,
+          "bbox": [
+            -0.2176203429698944, 421.5079116821289, 324.70855101943016,
+            215.91697692871094
+          ],
+          "score": 0.792935848236084
+        },
+        {
+          "image_id": 336356,
+          "category_id": 46,
+          "bbox": [
+            64.43878209590912, 267.79624938964844, 61.51958227157593,
+            149.4556427001953
+          ],
+          "score": 0.761045515537262
+        },
+        {
+          "image_id": 336356,
+          "category_id": 59,
+          "bbox": [
+            124.38040372729301, 291.33724212646484, 203.80308642983437,
+            78.69956970214844
+          ],
+          "score": 0.6832348704338074
+        },
+        {
+          "image_id": 336356,
+          "category_id": 47,
+          "bbox": [
+            307.88039404153824, 259.3165588378906, 76.1713194847107,
+            172.11326599121094
+          ],
+          "score": 0.5458377003669739
+        },
+        {
+          "image_id": 336356,
+          "category_id": 62,
+          "bbox": [
+            373.97192507982254, 145.9915542602539, 50.6386923789978,
+            167.81082153320312
+          ],
+          "score": 0.4142250716686249
+        },
+        {
+          "image_id": 485972,
+          "category_id": 61,
+          "bbox": [
+            27.305951356887817, 329.3935775756836, 264.142168879509,
+            243.7548828125
+          ],
+          "score": 0.9565231800079346
+        },
+        {
+          "image_id": 485972,
+          "category_id": 67,
+          "bbox": [
+            -2.213840961456299, 216.86267852783203, 431.12661051750183,
+            426.53011322021484
+          ],
+          "score": 0.7376517653465271
+        },
+        {
+          "image_id": 485972,
+          "category_id": 57,
+          "bbox": [
+            153.72027450799942, 116.7870044708252, 251.53571981191635,
+            175.38405418395996
+          ],
+          "score": 0.6226407289505005
+        },
+        {
+          "image_id": 485972,
+          "category_id": 48,
+          "bbox": [
+            307.8721042871475, 423.43910217285156, 87.42396712303162,
+            224.07684326171875
+          ],
+          "score": 0.49283790588378906
+        },
+        {
+          "image_id": 14226,
+          "category_id": 73,
+          "bbox": [
+            221.2755584716797, 235.47889709472656, 214.8352813720703,
+            131.09613418579102
+          ],
+          "score": 0.9915047287940979
+        },
+        {
+          "image_id": 14226,
+          "category_id": 1,
+          "bbox": [
+            200.04766464233398, 35.08957386016846, 344.555606842041,
+            321.7069387435913
+          ],
+          "score": 0.9877649545669556
+        },
+        {
+          "image_id": 14226,
+          "category_id": 62,
+          "bbox": [
+            393.8037872314453, 17.914938926696777, 191.86065673828125,
+            242.87216663360596
+          ],
+          "score": 0.966383159160614
+        },
+        {
+          "image_id": 14226,
+          "category_id": 67,
+          "bbox": [
+            141.79622650146484, 302.95921325683594, 491.778564453125,
+            177.6544189453125
+          ],
+          "score": 0.517021119594574
+        },
+        {
+          "image_id": 189698,
+          "category_id": 3,
+          "bbox": [
+            99.12205696105957, 292.6609330177307, 168.279447555542,
+            124.61315822601318
+          ],
+          "score": 0.7930522561073303
+        },
+        {
+          "image_id": 324258,
+          "category_id": 1,
+          "bbox": [
+            365.2639389038086, 66.29659652709961, 208.20762634277344,
+            407.8587341308594
+          ],
+          "score": 0.9335172176361084
+        },
+        {
+          "image_id": 565989,
+          "category_id": 85,
+          "bbox": [
+            183.7082576751709, 273.5670280456543, 67.54926681518555,
+            45.447120666503906
+          ],
+          "score": 0.7593129873275757
+        },
+        {
+          "image_id": 256192,
+          "category_id": 4,
+          "bbox": [
+            61.841487884521484, 68.43782901763916, 512.0444679260254,
+            373.33592891693115
+          ],
+          "score": 0.9815672039985657
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            99.14566040039062, 38.37256193161011, 44.96784210205078,
+            143.0508828163147
+          ],
+          "score": 0.8258653879165649
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            506.5142822265625, 75.61868190765381, 32.57164001464844,
+            86.72916412353516
+          ],
+          "score": 0.6374394297599792
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            8.187153339385986, 48.18875312805176, 44.39452886581421,
+            131.3593339920044
+          ],
+          "score": 0.5910099148750305
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            546.9527435302734, 75.7523775100708, 24.633941650390625,
+            85.84633827209473
+          ],
+          "score": 0.5907911658287048
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            579.163932800293, 76.12079858779907, 29.03900146484375,
+            84.72121953964233
+          ],
+          "score": 0.5746117234230042
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            27.984580993652344, 23.919739723205566, 599.0625762939453,
+            145.3820514678955
+          ],
+          "score": 0.5453383922576904
+        },
+        {
+          "image_id": 256192,
+          "category_id": 1,
+          "bbox": [
+            162.41823196411133, 26.488476991653442, 38.808555603027344,
+            68.12815546989441
+          ],
+          "score": 0.48362109065055847
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            268.31066131591797, 238.84383392333984, 133.01658630371094,
+            186.42941999435425
+          ],
+          "score": 0.9813376069068909
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            29.55625057220459, 184.33393836021423, 147.36992359161377,
+            229.47096633911133
+          ],
+          "score": 0.9809293150901794
+        },
+        {
+          "image_id": 467176,
+          "category_id": 1,
+          "bbox": [
+            469.0349578857422, 251.7898190021515, 128.02711486816406,
+            172.90829420089722
+          ],
+          "score": 0.9419240951538086
+        },
+        {
+          "image_id": 467176,
+          "category_id": 72,
+          "bbox": [
+            342.3514175415039, 94.70587933063507, 139.8736572265625,
+            112.54433608055115
+          ],
+          "score": 0.8848090171813965
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            224.5743179321289, 156.44935882091522, 9.145927429199219,
+            25.35412621498108
+          ],
+          "score": 0.8507007956504822
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            226.3321304321289, 93.70928764343262, 6.544227600097656,
+            19.60581862926483
+          ],
+          "score": 0.6922188997268677
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            229.29834365844727, 118.3539205789566, 6.902275085449219,
+            18.665809869766235
+          ],
+          "score": 0.6824833154678345
+        },
+        {
+          "image_id": 467176,
+          "category_id": 84,
+          "bbox": [
+            247.20428466796875, 88.76034784317017, 7.435646057128906,
+            22.127508997917175
+          ],
+          "score": 0.5659607648849487
+        },
+        {
+          "image_id": 290081,
+          "category_id": 55,
+          "bbox": [
+            9.92195463180542, 47.33367097377777, 598.2537603378296,
+            412.36218416690826
+          ],
+          "score": 0.8926489353179932
+        },
+        {
+          "image_id": 290081,
+          "category_id": 51,
+          "bbox": [
+            26.11027157306671, 345.6205530166626, 586.3886021375656,
+            262.86011838912964
+          ],
+          "score": 0.7458916306495667
+        },
+        {
+          "image_id": 290081,
+          "category_id": 67,
+          "bbox": [
+            -2.4779078364372253, 416.20943212509155, 265.34926146268845,
+            193.8419108390808
+          ],
+          "score": 0.43288955092430115
+        },
+        {
+          "image_id": 187236,
+          "category_id": 17,
+          "bbox": [
+            259.0926170349121, 53.317108154296875, 305.7339668273926,
+            163.36687088012695
+          ],
+          "score": 0.9892961978912354
+        },
+        {
+          "image_id": 187236,
+          "category_id": 17,
+          "bbox": [
+            -0.31040191650390625, 229.24796104431152, 414.0422821044922,
+            246.05083465576172
+          ],
+          "score": 0.9125378131866455
+        },
+        {
+          "image_id": 187236,
+          "category_id": 63,
+          "bbox": [
+            18.68206024169922, 6.487441062927246, 616.0554504394531,
+            463.4574365615845
+          ],
+          "score": 0.5567318797111511
+        },
+        {
+          "image_id": 370711,
+          "category_id": 28,
+          "bbox": [
+            14.552001953125, 12.492799758911133, 611.4518737792969,
+            424.63820457458496
+          ],
+          "score": 0.7974996566772461
+        },
+        {
+          "image_id": 370711,
+          "category_id": 28,
+          "bbox": [
+            126.14816665649414, 141.98965072631836, 113.81752014160156,
+            233.05938720703125
+          ],
+          "score": 0.5244476199150085
+        },
+        {
+          "image_id": 370711,
+          "category_id": 1,
+          "bbox": [
+            286.2240219116211, 212.0229148864746, 65.6332015991211,
+            165.82489013671875
+          ],
+          "score": 0.4842625856399536
+        },
+        {
+          "image_id": 235836,
+          "category_id": 1,
+          "bbox": [
+            231.72750121355057, 275.5692672729492, 154.55444860458374,
+            329.3864440917969
+          ],
+          "score": 0.99870765209198
+        },
+        {
+          "image_id": 235836,
+          "category_id": 62,
+          "bbox": [
+            73.87151238322258, 230.2801513671875, 144.844605833292,
+            173.1454086303711
+          ],
+          "score": 0.9670372009277344
+        },
+        {
+          "image_id": 235836,
+          "category_id": 62,
+          "bbox": [
+            352.034964799881, 227.06405639648438, 76.14922785758972,
+            189.46395874023438
+          ],
+          "score": 0.7111340761184692
+        },
+        {
+          "image_id": 235836,
+          "category_id": 34,
+          "bbox": [
+            188.56089448928833, 408.9427185058594, 51.114476799964905,
+            30.856857299804688
+          ],
+          "score": 0.40196114778518677
+        },
+        {
+          "image_id": 223959,
+          "category_id": 1,
+          "bbox": [
+            152.3265838623047, 20.046062469482422, 160.75687408447266,
+            599.5553779602051
+          ],
+          "score": 0.950151801109314
+        },
+        {
+          "image_id": 223959,
+          "category_id": 43,
+          "bbox": [
+            138.98943901062012, 15.936260223388672, 53.80505561828613,
+            162.21487045288086
+          ],
+          "score": 0.888922393321991
+        },
+        {
+          "image_id": 541773,
+          "category_id": 67,
+          "bbox": [
+            6.212520599365234, 256.21971130371094, 369.79997634887695,
+            217.43350982666016
+          ],
+          "score": 0.9062532186508179
+        },
+        {
+          "image_id": 541773,
+          "category_id": 1,
+          "bbox": [
+            269.6031951904297, 3.793973922729492, 318.29795837402344,
+            465.7986831665039
+          ],
+          "score": 0.8963114619255066
+        },
+        {
+          "image_id": 541773,
+          "category_id": 44,
+          "bbox": [
+            169.07880783081055, 265.3139019012451, 51.06536865234375,
+            155.36212921142578
+          ],
+          "score": 0.7785965800285339
+        },
+        {
+          "image_id": 541773,
+          "category_id": 44,
+          "bbox": [
+            135.0981903076172, 264.14111137390137, 53.56117248535156,
+            171.08379364013672
+          ],
+          "score": 0.45030584931373596
+        },
+        {
+          "image_id": 176446,
+          "category_id": 84,
+          "bbox": [
+            204.67878341674805, 9.57909107208252, 439.21030044555664,
+            263.50600719451904
+          ],
+          "score": 0.9529333710670471
+        },
+        {
+          "image_id": 176446,
+          "category_id": 73,
+          "bbox": [
+            -8.916358947753906, 21.03105068206787, 236.55776977539062,
+            266.0732316970825
+          ],
+          "score": 0.9016075730323792
+        }
+      ]
+    }
+  ],
+  "coldLocalLoadMs": 4592.105749,
+  "warmLocalLoadMs": 6305.78398,
+  "finalMemory": {
+    "unreliable": true,
+    "reasons": [
+      "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+    ],
+    "numTensors": 0,
+    "numDataBuffers": 0,
+    "numBytes": 0
+  }
+}
