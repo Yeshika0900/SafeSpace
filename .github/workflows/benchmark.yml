@@ -1,0 +1,38 @@
+name: Manual generic-object subset benchmark
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+      - run: npm --prefix website ci
+      - run: python3 -m venv /tmp/benchmark-venv && /tmp/benchmark-venv/bin/pip install numpy==2.4.2 pycocotools==2.0.11
+      - run: python3 scripts/prepare-benchmark.py /tmp/safespace-benchmark
+      - run: npm --prefix website run benchmark -- /tmp/safespace-benchmark run1
+      - run: /tmp/benchmark-venv/bin/python scripts/evaluate-benchmark.py /tmp/safespace-benchmark run1
+      - run: npm --prefix website run benchmark -- /tmp/safespace-benchmark run2
+      - run: /tmp/benchmark-venv/bin/python scripts/evaluate-benchmark.py /tmp/safespace-benchmark run2
+      - run: python3 scripts/compare-benchmarks.py /tmp/safespace-benchmark
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: generic-object-subset-results
+          path: |
+            /tmp/safespace-benchmark/run1.json
+            /tmp/safespace-benchmark/run1-summary.json
+            /tmp/safespace-benchmark/run2.json
+            /tmp/safespace-benchmark/run2-summary.json
+            /tmp/safespace-benchmark/manifest.json
+          retention-days: 7
+          if-no-files-found: error

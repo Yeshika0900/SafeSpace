@@ -4,3 +4,11 @@ dist/
 .env
 .env.*
 !.env.example
+
+website/test-results/
+website/playwright-report/
+.playwright-cli/
+.cache/
+
+__pycache__/
+*.pyc

@@ -1,0 +1,804 @@
+{
+  "dataset": "COCO2017 val, deterministic 32-image engineering subset; not full benchmark",
+  "annotationArchiveSha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+  "annotationSha256": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+  "images": [
+    {
+      "license": 4,
+      "file_name": "000000336356.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000336356.jpg",
+      "height": 640,
+      "width": 427,
+      "date_captured": "2013-11-20 14:47:15",
+      "flickr_url": "http://farm5.staticflickr.com/4096/5050400852_d12877ae4a_z.jpg",
+      "id": 336356,
+      "sha256": "0b9315fe0e6c212f070a1bd4e5589bacf038a4791c4882472609b2351339bbe5",
+      "split": "validation"
+    },
+    {
+      "license": 2,
+      "file_name": "000000485972.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000485972.jpg",
+      "height": 640,
+      "width": 426,
+      "date_captured": "2013-11-20 01:25:36",
+      "flickr_url": "http://farm6.staticflickr.com/5245/5358772327_79708430a5_z.jpg",
+      "id": 485972,
+      "sha256": "ac81c8194f2021cfcc5c420b5395f186bd30a40886362ce968159644503e491f",
+      "split": "validation"
+    },
+    {
+      "license": 3,
+      "file_name": "000000014226.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000014226.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-17 04:22:03",
+      "flickr_url": "http://farm1.staticflickr.com/6/6710769_d74169f5b7_z.jpg",
+      "id": 14226,
+      "sha256": "7342b8ee76ae63bfa942cb6849300cb39618b2453b2a51ef48650970bdeb837a",
+      "split": "validation"
+    },
+    {
+      "license": 4,
+      "file_name": "000000189698.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000189698.jpg",
+      "height": 428,
+      "width": 640,
+      "date_captured": "2013-11-17 00:39:12",
+      "flickr_url": "http://farm6.staticflickr.com/5287/5334889612_b1cbc99066_z.jpg",
+      "id": 189698,
+      "sha256": "ce9c60ba26d620a0ee11723bc7e39dc4d09b17d9ac4906048704c8f3d8b2919f",
+      "split": "validation"
+    },
+    {
+      "license": 3,
+      "file_name": "000000022623.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000022623.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-24 09:10:14",
+      "flickr_url": "http://farm2.staticflickr.com/1100/1429557346_4f5c655e47_z.jpg",
+      "id": 22623,
+      "sha256": "93699b28cbecfe8f38fd82e3201ed1c7310fe664206a97306c806a4000c09a80",
+      "split": "validation"
+    },
+    {
+      "license": 2,
+      "file_name": "000000324258.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000324258.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-22 00:00:07",
+      "flickr_url": "http://farm1.staticflickr.com/140/358725539_3bfbd1bdf6_z.jpg",
+      "id": 324258,
+      "sha256": "6fb95a96ea95a740c2f9f576ac6b2011dea99104c9c99dda09779e40485d3c4f",
+      "split": "validation"
+    },
+    {
+      "license": 2,
+      "file_name": "000000565989.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000565989.jpg",
+      "height": 640,
+      "width": 480,
+      "date_captured": "2013-11-18 01:35:58",
+      "flickr_url": "http://farm5.staticflickr.com/4051/4645314391_09088d3d0d_z.jpg",
+      "id": 565989,
+      "sha256": "09160fa1bf6465308447a02ae32bcdb0248353cd76fb8f152bcf9e71f8d907a2",
+      "split": "validation"
+    },
+    {
+      "license": 2,
+      "file_name": "000000256192.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000256192.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-15 20:59:46",
+      "flickr_url": "http://farm6.staticflickr.com/5038/7051498615_f2777fb4c3_z.jpg",
+      "id": 256192,
+      "sha256": "3c5e87db0892374361a26acca550d37f682ebde12e75707d5819a073031b3499",
+      "split": "validation"
+    },
+    {
+      "license": 3,
+      "file_name": "000000467176.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000467176.jpg",
+      "height": 428,
+      "width": 640,
+      "date_captured": "2013-11-21 20:13:48",
+      "flickr_url": "http://farm1.staticflickr.com/147/409553883_515b628393_z.jpg",
+      "id": 467176,
+      "sha256": "533fd5d3b52305fee0f1e96b258b41de137ec1de465ee5c0c3afaa599c6c8567",
+      "split": "validation"
+    },
+    {
+      "license": 4,
+      "file_name": "000000290081.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000290081.jpg",
+      "height": 612,
+      "width": 612,
+      "date_captured": "2013-11-19 19:00:39",
+      "flickr_url": "http://farm9.staticflickr.com/8256/8662529759_1a7cb966a7_z.jpg",
+      "id": 290081,
+      "sha256": "5800d9c4af6f1cc1d03013d438f9bec32333a4b9c492e9e34fc4c76c7c29b54d",
+      "split": "validation"
+    },
+    {
+      "license": 1,
+      "file_name": "000000187236.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000187236.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-17 19:25:50",
+      "flickr_url": "http://farm2.staticflickr.com/1067/4734067079_b4646f92b7_z.jpg",
+      "id": 187236,
+      "sha256": "543862a94b3b567ad38d1ee56271634e07849bb42609d7d5adfd4b3d23c9acb2",
+      "split": "validation"
+    },
+    {
+      "license": 1,
+      "file_name": "000000370711.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000370711.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-18 03:28:12",
+      "flickr_url": "http://farm1.staticflickr.com/149/421530758_9df797524d_z.jpg",
+      "id": 370711,
+      "sha256": "fe1a25c8782a751b2cb2cc13c3de85e2cd734da416af50dba0932c4656eda3ac",
+      "split": "validation"
+    },
+    {
+      "license": 3,
+      "file_name": "000000235836.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000235836.jpg",
+      "height": 640,
+      "width": 427,
+      "date_captured": "2013-11-23 00:56:12",
+      "flickr_url": "http://farm8.staticflickr.com/7196/7125669095_6e2cf1eaa8_z.jpg",
+      "id": 235836,
+      "sha256": "2a2269de29e82e4eac88dc306453c3840961ca79626d52f7c700b8c998284801",
+      "split": "validation"
+    },
+    {
+      "license": 1,
+      "file_name": "000000223959.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000223959.jpg",
+      "height": 640,
+      "width": 480,
+      "date_captured": "2013-11-21 03:48:48",
+      "flickr_url": "http://farm8.staticflickr.com/7007/6644433357_ee12f0a3ee_z.jpg",
+      "id": 223959,
+      "sha256": "40723194728d52fd499ce505353bd9e153cc453dec045795167dbabf339bdc23",
+      "split": "validation"
+    },
+    {
+      "license": 3,
+      "file_name": "000000541773.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000541773.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-25 20:12:57",
+      "flickr_url": "http://farm3.staticflickr.com/2737/4324509584_ab775e81eb_z.jpg",
+      "id": 541773,
+      "sha256": "d197d3c81ce4e9c4b12dc0ae704e258d6a9b9fcde9543b78b4ef7644e86dbbbe",
+      "split": "validation"
+    },
+    {
+      "license": 2,
+      "file_name": "000000176446.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000176446.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-23 15:31:13",
+      "flickr_url": "http://farm5.staticflickr.com/4144/5147299912_ab3a207971_z.jpg",
+      "id": 176446,
+      "sha256": "7a2202efaa90f2b4d6eb3ee452d4a1fb2582c14a5e635c1f4dbf21700ea8eb44",
+      "split": "validation"
+    },
+    {
+      "license": 3,
+      "file_name": "000000493566.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000493566.jpg",
+      "height": 264,
+      "width": 640,
+      "date_captured": "2013-11-17 08:26:49",
+      "flickr_url": "http://farm3.staticflickr.com/2883/9289056096_83690c37a9_z.jpg",
+      "id": 493566,
+      "sha256": "badff95cd80f05aa73f3b8fe5a5d72d37008b4aa1d59c62560aecbf2534402c9",
+      "split": "holdout"
+    },
+    {
+      "license": 3,
+      "file_name": "000000461573.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000461573.jpg",
+      "height": 376,
+      "width": 500,
+      "date_captured": "2013-11-16 20:21:55",
+      "flickr_url": "http://farm4.staticflickr.com/3317/3429860218_cfc283ce00_z.jpg",
+      "id": 461573,
+      "sha256": "77ecd181ea28d6ed548ae2222e948ee759c83c75b6898ad1a4c6705149618e5e",
+      "split": "holdout"
+    },
+    {
+      "license": 5,
+      "file_name": "000000338901.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000338901.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-18 13:10:38",
+      "flickr_url": "http://farm4.staticflickr.com/3220/3098425884_0dfc6b86d5_z.jpg",
+      "id": 338901,
+      "sha256": "c523e93db4e127f191d892ddc1bbe8db14e894d76bf0231624a5cba918963254",
+      "split": "holdout"
+    },
+    {
+      "license": 1,
+      "file_name": "000000383838.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000383838.jpg",
+      "height": 588,
+      "width": 640,
+      "date_captured": "2013-11-21 19:52:55",
+      "flickr_url": "http://farm4.staticflickr.com/3200/3048031301_be404e305e_z.jpg",
+      "id": 383838,
+      "sha256": "8f1a6220e63b77533def7e515bc4e7ebe8879d68cd6cf13c90f3f507c0c2583d",
+      "split": "holdout"
+    },
+    {
+      "license": 1,
+      "file_name": "000000448448.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000448448.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-16 18:18:02",
+      "flickr_url": "http://farm6.staticflickr.com/5296/5584713869_7207b0bd4c_z.jpg",
+      "id": 448448,
+      "sha256": "6505b2d9b9284b1d01e26bd6e892bceee1903eb358e8d3f0f49c27810ac80118",
+      "split": "holdout"
+    },
+    {
+      "license": 3,
+      "file_name": "000000185890.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000185890.jpg",
+      "height": 640,
+      "width": 509,
+      "date_captured": "2013-11-21 21:39:32",
+      "flickr_url": "http://farm4.staticflickr.com/3090/2704593814_037ac1aab8_z.jpg",
+      "id": 185890,
+      "sha256": "f2eca093fbcf84dc9d19ae25ea663cccfda23be04e0a805ad475121fd4e787a7",
+      "split": "holdout"
+    },
+    {
+      "license": 2,
+      "file_name": "000000272049.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000272049.jpg",
+      "height": 427,
+      "width": 640,
+      "date_captured": "2013-11-17 20:14:47",
+      "flickr_url": "http://farm8.staticflickr.com/7248/7449377950_d30deae858_z.jpg",
+      "id": 272049,
+      "sha256": "edcce591803494f25d75b861d799a3df9b664069773fcab5bbfbd7937058d417",
+      "split": "holdout"
+    },
+    {
+      "license": 2,
+      "file_name": "000000029675.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000029675.jpg",
+      "height": 640,
+      "width": 478,
+      "date_captured": "2013-11-20 12:27:18",
+      "flickr_url": "http://farm7.staticflickr.com/6051/6227326507_4d284ce16f_z.jpg",
+      "id": 29675,
+      "sha256": "59647741cd07304fd4ef6309bf4707c6abf96bc8e654ce632be41f590e5cf65d",
+      "split": "holdout"
+    },
+    {
+      "license": 5,
+      "file_name": "000000284764.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000284764.jpg",
+      "height": 427,
+      "width": 640,
+      "date_captured": "2013-11-24 22:23:37",
+      "flickr_url": "http://farm8.staticflickr.com/7332/9759747051_a14de15d61_z.jpg",
+      "id": 284764,
+      "sha256": "aeb8eccd4790513a38c9d68152de78d465346e08ca505e7a956a4e568461ec6e",
+      "split": "holdout"
+    },
+    {
+      "license": 4,
+      "file_name": "000000560371.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000560371.jpg",
+      "height": 427,
+      "width": 640,
+      "date_captured": "2013-11-17 06:21:07",
+      "flickr_url": "http://farm4.staticflickr.com/3081/2368167876_cb13e711e8_z.jpg",
+      "id": 560371,
+      "sha256": "17cd49dc9cde113485375a9cc0da039c752d9ad767c93634de31cb00a97bbb45",
+      "split": "holdout"
+    },
+    {
+      "license": 5,
+      "file_name": "000000416837.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000416837.jpg",
+      "height": 427,
+      "width": 640,
+      "date_captured": "2013-11-17 19:43:56",
+      "flickr_url": "http://farm7.staticflickr.com/6210/6076000352_33c4523167_z.jpg",
+      "id": 416837,
+      "sha256": "3f86b8f0da89b3cbd163eaae02cdd1523c95f6c427901d58c9308ef9f97dbd7b",
+      "split": "holdout"
+    },
+    {
+      "license": 1,
+      "file_name": "000000491090.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000491090.jpg",
+      "height": 640,
+      "width": 478,
+      "date_captured": "2013-11-15 22:07:58",
+      "flickr_url": "http://farm7.staticflickr.com/6184/6158210383_6e1a703842_z.jpg",
+      "id": 491090,
+      "sha256": "4ba267554825ed78b348a4e6fefaa11e6142c41d09695be553fe4083fa9a9eee",
+      "split": "holdout"
+    },
+    {
+      "license": 3,
+      "file_name": "000000206838.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000206838.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-18 21:43:57",
+      "flickr_url": "http://farm5.staticflickr.com/4073/4896178637_620b092e2d_z.jpg",
+      "id": 206838,
+      "sha256": "df34ba96c9d0adddb008c2b795db9f4bd7577f6ed254d4c609b9549857806c0c",
+      "split": "holdout"
+    },
+    {
+      "license": 3,
+      "file_name": "000000272136.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000272136.jpg",
+      "height": 428,
+      "width": 640,
+      "date_captured": "2013-11-16 02:32:51",
+      "flickr_url": "http://farm5.staticflickr.com/4081/4789318999_1b404cb8a6_z.jpg",
+      "id": 272136,
+      "sha256": "24a09e3530a7f345a4b112cda27cc7573f05907a23d0dafd87d7275f41ad668d",
+      "split": "holdout"
+    },
+    {
+      "license": 3,
+      "file_name": "000000471789.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000471789.jpg",
+      "height": 480,
+      "width": 640,
+      "date_captured": "2013-11-22 14:51:39",
+      "flickr_url": "http://farm9.staticflickr.com/8315/7948466550_3e6928e4e0_z.jpg",
+      "id": 471789,
+      "sha256": "4b942ed1ba02d83baabe7bf2a7c607bea7a69869dd5cc637b57b0f4263869223",
+      "split": "holdout"
+    },
+    {
+      "license": 2,
+      "file_name": "000000351362.jpg",
+      "coco_url": "http://images.cocodataset.org/val2017/000000351362.jpg",
+      "height": 640,
+      "width": 426,
+      "date_captured": "2013-11-15 05:33:15",
+      "flickr_url": "http://farm5.staticflickr.com/4126/5026193063_82858d3b84_z.jpg",
+      "id": 351362,
+      "sha256": "914f252e84e54c791473a18b236ed0f4994c2f721cb0ab2cd14db7f69caadbb4",
+      "split": "holdout"
+    }
+  ],
+  "modelUrl": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/model.json",
+  "modelArtifacts": {
+    "model.json": "3770b2528339b1e3340cb74360e1e40401816b009779aeb8d0cce3a4353ea3a9",
+    "group1-shard1of5": "0e7af0f713e98521252321f7f84892c31cefccccec3ac64c84e5065b75ed5646",
+    "group1-shard2of5": "74cc6cfc2c4510c9cd81b8ad4cebf6f6a8f305119bb365ce0eb96276da38519a",
+    "group1-shard3of5": "50383033f893eae136392a403e8f70ade5efd90867df5695c4ca5ac640e14f38",
+    "group1-shard4of5": "d856dc534c780068bbf6c666ce1516df2c8433d87578aa31fcdf197de7058cc2",
+    "group1-shard5of5": "3d356f1fb6dfca6af78c56db34d9326706d0196e303f9de6b04f236ca79ed309"
+  },
+  "train2017Val2017ImageIdOverlap": 0,
+  "pretrainingOverlap": "Official train/val image IDs checked disjoint. Exact original weight training membership is not independently attested; do not call this independent validation.",
+  "categories": [
+    {
+      "supercategory": "person",
+      "id": 1,
+      "name": "person"
+    },
+    {
+      "supercategory": "vehicle",
+      "id": 2,
+      "name": "bicycle"
+    },
+    {
+      "supercategory": "vehicle",
+      "id": 3,
+      "name": "car"
+    },
+    {
+      "supercategory": "vehicle",
+      "id": 4,
+      "name": "motorcycle"
+    },
+    {
+      "supercategory": "vehicle",
+      "id": 5,
+      "name": "airplane"
+    },
+    {
+      "supercategory": "vehicle",
+      "id": 6,
+      "name": "bus"
+    },
+    {
+      "supercategory": "vehicle",
+      "id": 7,
+      "name": "train"
+    },
+    {
+      "supercategory": "vehicle",
+      "id": 8,
+      "name": "truck"
+    },
+    {
+      "supercategory": "vehicle",
+      "id": 9,
+      "name": "boat"
+    },
+    {
+      "supercategory": "outdoor",
+      "id": 10,
+      "name": "traffic light"
+    },
+    {
+      "supercategory": "outdoor",
+      "id": 11,
+      "name": "fire hydrant"
+    },
+    {
+      "supercategory": "outdoor",
+      "id": 13,
+      "name": "stop sign"
+    },
+    {
+      "supercategory": "outdoor",
+      "id": 14,
+      "name": "parking meter"
+    },
+    {
+      "supercategory": "outdoor",
+      "id": 15,
+      "name": "bench"
+    },
+    {
+      "supercategory": "animal",
+      "id": 16,
+      "name": "bird"
+    },
+    {
+      "supercategory": "animal",
+      "id": 17,
+      "name": "cat"
+    },
+    {
+      "supercategory": "animal",
+      "id": 18,
+      "name": "dog"
+    },
+    {
+      "supercategory": "animal",
+      "id": 19,
+      "name": "horse"
+    },
+    {
+      "supercategory": "animal",
+      "id": 20,
+      "name": "sheep"
+    },
+    {
+      "supercategory": "animal",
+      "id": 21,
+      "name": "cow"
+    },
+    {
+      "supercategory": "animal",
+      "id": 22,
+      "name": "elephant"
+    },
+    {
+      "supercategory": "animal",
+      "id": 23,
+      "name": "bear"
+    },
+    {
+      "supercategory": "animal",
+      "id": 24,
+      "name": "zebra"
+    },
+    {
+      "supercategory": "animal",
+      "id": 25,
+      "name": "giraffe"
+    },
+    {
+      "supercategory": "accessory",
+      "id": 27,
+      "name": "backpack"
+    },
+    {
+      "supercategory": "accessory",
+      "id": 28,
+      "name": "umbrella"
+    },
+    {
+      "supercategory": "accessory",
+      "id": 31,
+      "name": "handbag"
+    },
+    {
+      "supercategory": "accessory",
+      "id": 32,
+      "name": "tie"
+    },
+    {
+      "supercategory": "accessory",
+      "id": 33,
+      "name": "suitcase"
+    },
+    {
+      "supercategory": "sports",
+      "id": 34,
+      "name": "frisbee"
+    },
+    {
+      "supercategory": "sports",
+      "id": 35,
+      "name": "skis"
+    },
+    {
+      "supercategory": "sports",
+      "id": 36,
+      "name": "snowboard"
+    },
+    {
+      "supercategory": "sports",
+      "id": 37,
+      "name": "sports ball"
+    },
+    {
+      "supercategory": "sports",
+      "id": 38,
+      "name": "kite"
+    },
+    {
+      "supercategory": "sports",
+      "id": 39,
+      "name": "baseball bat"
+    },
+    {
+      "supercategory": "sports",
+      "id": 40,
+      "name": "baseball glove"
+    },
+    {
+      "supercategory": "sports",
+      "id": 41,
+      "name": "skateboard"
+    },
+    {
+      "supercategory": "sports",
+      "id": 42,
+      "name": "surfboard"
+    },
+    {
+      "supercategory": "sports",
+      "id": 43,
+      "name": "tennis racket"
+    },
+    {
+      "supercategory": "kitchen",
+      "id": 44,
+      "name": "bottle"
+    },
+    {
+      "supercategory": "kitchen",
+      "id": 46,
+      "name": "wine glass"
+    },
+    {
+      "supercategory": "kitchen",
+      "id": 47,
+      "name": "cup"
+    },
+    {
+      "supercategory": "kitchen",
+      "id": 48,
+      "name": "fork"
+    },
+    {
+      "supercategory": "kitchen",
+      "id": 49,
+      "name": "knife"
+    },
+    {
+      "supercategory": "kitchen",
+      "id": 50,
+      "name": "spoon"
+    },
+    {
+      "supercategory": "kitchen",
+      "id": 51,
+      "name": "bowl"
+    },
+    {
+      "supercategory": "food",
+      "id": 52,
+      "name": "banana"
+    },
+    {
+      "supercategory": "food",
+      "id": 53,
+      "name": "apple"
+    },
+    {
+      "supercategory": "food",
+      "id": 54,
+      "name": "sandwich"
+    },
+    {
+      "supercategory": "food",
+      "id": 55,
+      "name": "orange"
+    },
+    {
+      "supercategory": "food",
+      "id": 56,
+      "name": "broccoli"
+    },
+    {
+      "supercategory": "food",
+      "id": 57,
+      "name": "carrot"
+    },
+    {
+      "supercategory": "food",
+      "id": 58,
+      "name": "hot dog"
+    },
+    {
+      "supercategory": "food",
+      "id": 59,
+      "name": "pizza"
+    },
+    {
+      "supercategory": "food",
+      "id": 60,
+      "name": "donut"
+    },
+    {
+      "supercategory": "food",
+      "id": 61,
+      "name": "cake"
+    },
+    {
+      "supercategory": "furniture",
+      "id": 62,
+      "name": "chair"
+    },
+    {
+      "supercategory": "furniture",
+      "id": 63,
+      "name": "couch"
+    },
+    {
+      "supercategory": "furniture",
+      "id": 64,
+      "name": "potted plant"
+    },
+    {
+      "supercategory": "furniture",
+      "id": 65,
+      "name": "bed"
+    },
+    {
+      "supercategory": "furniture",
+      "id": 67,
+      "name": "dining table"
+    },
+    {
+      "supercategory": "furniture",
+      "id": 70,
+      "name": "toilet"
+    },
+    {
+      "supercategory": "electronic",
+      "id": 72,
+      "name": "tv"
+    },
+    {
+      "supercategory": "electronic",
+      "id": 73,
+      "name": "laptop"
+    },
+    {
+      "supercategory": "electronic",
+      "id": 74,
+      "name": "mouse"
+    },
+    {
+      "supercategory": "electronic",
+      "id": 75,
+      "name": "remote"
+    },
+    {
+      "supercategory": "electronic",
+      "id": 76,
+      "name": "keyboard"
+    },
+    {
+      "supercategory": "electronic",
+      "id": 77,
+      "name": "cell phone"
+    },
+    {
+      "supercategory": "appliance",
+      "id": 78,
+      "name": "microwave"
+    },
+    {
+      "supercategory": "appliance",
+      "id": 79,
+      "name": "oven"
+    },
+    {
+      "supercategory": "appliance",
+      "id": 80,
+      "name": "toaster"
+    },
+    {
+      "supercategory": "appliance",
+      "id": 81,
+      "name": "sink"
+    },
+    {
+      "supercategory": "appliance",
+      "id": 82,
+      "name": "refrigerator"
+    },
+    {
+      "supercategory": "indoor",
+      "id": 84,
+      "name": "book"
+    },
+    {
+      "supercategory": "indoor",
+      "id": 85,
+      "name": "clock"
+    },
+    {
+      "supercategory": "indoor",
+      "id": 86,
+      "name": "vase"
+    },
+    {
+      "supercategory": "indoor",
+      "id": 87,
+      "name": "scissors"
+    },
+    {
+      "supercategory": "indoor",
+      "id": 88,
+      "name": "teddy bear"
+    },
+    {
+      "supercategory": "indoor",
+      "id": 89,
+      "name": "hair drier"
+    },
+    {
+      "supercategory": "indoor",
+      "id": 90,
+      "name": "toothbrush"
+    }
+  ]
+}
