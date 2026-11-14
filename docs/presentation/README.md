@@ -20,7 +20,7 @@ Links pin observed README-changing commits. This is a presentation analysis, not
 
 The README now leads with original artwork, a clear purpose, current prototype status and an actual camera workspace. Four capabilities sit beside their interpretation limits. A narrow-screen capture shows the existing checklist. A short engineering explanation and evidence table lead to reviewer, architecture, setup and quality records.
 
-Detailed setup/native/storage instructions remain in [SETUP.md](../SETUP.md); historical quality records stay at their original paths. The quality work has merged into main; the clone command now selects the separate presentation/licensing follow-up branch. No hosted demo, verified APK, video or hidden-camera accuracy is invented. A later user-requested follow-up adds [MIT licensing](../LICENSING.md) for original work and preserves separate third-party notices.
+Detailed setup/native/storage instructions remain in [SETUP.md](../SETUP.md); historical quality records stay at their original paths. The quality and MIT-licensing work have merged into main; the clone command now uses the default branch. No hosted demo, verified APK, video or hidden-camera accuracy is invented. A later user-requested follow-up adds [MIT licensing](../LICENSING.md) for original work and preserves separate third-party notices.
 
 The artwork uses SafeSpace's existing midnight, violet and cyan colours and shield motif. Reference logos, mascots, screenshots, text and code are not reused. [Media provenance](../media/README.md) records the actual capture scope.
 

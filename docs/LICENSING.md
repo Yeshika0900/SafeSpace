@@ -6,7 +6,7 @@ SafeSpace's original source code, documentation and original repository artwork 
 
 You may use, copy, modify and distribute the covered work, including commercially, provided you retain the copyright and permission notice in copies or substantial portions. MIT does not require you to publish modifications. The work is provided without warranty, with the liability limits stated in the license.
 
-The license identifies the copyright holders collectively as **SafeSpace contributors**. It does not replace third-party copyright lines or claim ownership of external libraries, fonts, model checkpoints or datasets.
+The license names **Yeshika0900** as the copyright holder of SafeSpace's original work and project creator. It does not replace third-party copyright lines or claim ownership of external libraries, fonts, model checkpoints or datasets.
 
 ## What stays separate
 
@@ -19,8 +19,12 @@ The license identifies the copyright holders collectively as **SafeSpace contrib
 
 ## Contributing and reuse
 
-Unless an explicitly applicable file notice says otherwise, contributions intended for inclusion in SafeSpace are submitted under the same MIT terms. Preserve existing attribution and identify externally sourced material and its license. Reuse of the code does not imply endorsement by the project contributors or the upstream dependency authors.
+Unless an explicitly applicable file notice says otherwise, contributions intended for inclusion in SafeSpace are submitted under the same MIT terms. Preserve existing attribution and identify externally sourced material and its license. Reuse of the code does not imply endorsement by the project creator or the upstream dependency authors.
 
 For private user imagery, device metadata or downloaded inspection reports, the code license grants no rights to someone else's data. Use only material you are authorized to inspect or share.
 
 [Return to SafeSpace](../README.md) · [Contributing](../CONTRIBUTING.md) · [Media provenance](media/README.md).
+
+## Project attribution
+
+SafeSpace is the original project of [Yeshika0900](https://github.com/Yeshika0900), its project author and copyright holder. Dependency/font/data credits are third-party notices, not claims of co-authorship of SafeSpace. Historical evaluation and capture records retain their original source IDs; metadata-only Git history corrections do not change their source file trees or measured results.

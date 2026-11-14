@@ -18,5 +18,9 @@
     "helper": "npm --prefix network-agent start"
   },
   "type": "module",
-  "license": "MIT"
+  "license": "MIT",
+  "author": {
+    "name": "Yeshika0900",
+    "url": "https://github.com/Yeshika0900"
+  }
 }
