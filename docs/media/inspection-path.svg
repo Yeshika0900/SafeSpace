@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="240" viewBox="0 0 1600 240" role="img" aria-labelledby="title desc">
+  <title id="title">An inspection in three steps</title>
+  <desc id="desc">Observe with camera assistance, add Bluetooth and local IPv4 context, and review the practical checklist with human judgement. The tools provide separate, limited observations.</desc>
+  <rect x="1" y="1" width="1598" height="238" rx="16" fill="#0d1220" stroke="#30394f"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(48 0)">
+      <text y="56" fill="#9b82ff" font-family="ui-monospace, monospace" font-size="17" letter-spacing="2">01 / OBSERVE</text>
+      <text y="111" fill="#f4f5ff" font-size="34" font-weight="700">Look at the space.</text>
+      <text y="157" fill="#abb5ce" font-size="24">Preview · Common-object labels</text>
+      <text y="193" fill="#abb5ce" font-size="24">Frame capture</text>
+    </g>
+    <g transform="translate(580 0)">
+      <text y="56" fill="#48d9e9" font-family="ui-monospace, monospace" font-size="17" letter-spacing="2">02 / ADD CONTEXT</text>
+      <text y="111" fill="#f4f5ff" font-size="34" font-weight="700">Review device information.</text>
+      <text y="157" fill="#abb5ce" font-size="24">Selected BLE / advertisements</text>
+      <text y="193" fill="#abb5ce" font-size="24">Recent IPv4 neighbours</text>
+    </g>
+    <g transform="translate(1120 0)">
+      <text y="56" fill="#f18ab9" font-family="ui-monospace, monospace" font-size="17" letter-spacing="2">03 / REVIEW</text>
+      <text y="111" fill="#f4f5ff" font-size="34" font-weight="700">Use your judgement.</text>
+      <text y="157" fill="#abb5ce" font-size="24">Six practical checklist steps</text>
+      <text y="193" fill="#abb5ce" font-size="24">Manual inspection and follow-up</text>
+    </g>
+  </g>
+  <g stroke="#30394f" fill="none"><path d="M535 40V200M1075 40V200"/><path d="M503 119H552M544 111L552 119L544 127M1043 119H1092M1084 111L1092 119L1084 127" stroke="#929bb5" stroke-width="2"/></g>
+</svg>

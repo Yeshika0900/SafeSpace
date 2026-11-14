@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="750" viewBox="0 0 768 750" role="img" aria-labelledby="title desc">
+  <title id="title">Observe, add context, review</title>
+  <desc id="desc">The existing camera, Bluetooth, IPv4 inventory and checklist support human review through separate observations.</desc>
+  <rect x="1" y="1" width="766" height="748" rx="16" fill="#0d1220" stroke="#30394f"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(48 0)"><text y="56" fill="#9b82ff" font-family="ui-monospace, monospace" font-size="20" letter-spacing="2">01 / OBSERVE</text><text y="111" fill="#f4f5ff" font-size="38" font-weight="700">Look at the space.</text><text y="158" fill="#abb5ce" font-size="28">Preview · Common-object labels</text><text y="198" fill="#abb5ce" font-size="28">Frame capture</text></g>
+    <g transform="translate(48 248)"><text y="56" fill="#48d9e9" font-family="ui-monospace, monospace" font-size="20" letter-spacing="2">02 / ADD CONTEXT</text><text y="111" fill="#f4f5ff" font-size="38" font-weight="700">Review device information.</text><text y="158" fill="#abb5ce" font-size="28">Selected BLE / advertisements</text><text y="198" fill="#abb5ce" font-size="28">Recent IPv4 neighbours</text></g>
+    <g transform="translate(48 496)"><text y="56" fill="#f18ab9" font-family="ui-monospace, monospace" font-size="20" letter-spacing="2">03 / REVIEW</text><text y="111" fill="#f4f5ff" font-size="38" font-weight="700">Use your judgement.</text><text y="158" fill="#abb5ce" font-size="28">Six practical checklist steps</text><text y="198" fill="#abb5ce" font-size="28">Manual inspection and follow-up</text></g>
+  </g>
+  <g stroke="#30394f"><path d="M48 247H720M48 495H720"/></g>
+</svg>

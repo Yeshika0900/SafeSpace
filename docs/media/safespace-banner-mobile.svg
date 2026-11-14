@@ -1,29 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="768" height="800" viewBox="0 0 768 800" role="img" aria-labelledby="title description">
-  <title id="title">SafeSpace</title>
-  <desc id="description">Responsive original project banner. Camera, Bluetooth, network inventory and checklist in the existing midnight, violet and cyan identity. Decorative artwork.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="620" viewBox="0 0 768 620" role="img" aria-labelledby="title description">
+  <title id="title">SafeSpace — local privacy inspection tools</title>
+  <desc id="description">Compact original SafeSpace branding: camera, Bluetooth, local IPv4 inventory and checklist. A decorative shield contains a focus frame; it is not a device observation.</desc>
   <defs>
     <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#111727"/><stop offset="1" stop-color="#080b16"/></linearGradient>
     <linearGradient id="accent"><stop stop-color="#9b82ff"/><stop offset="1" stop-color="#48d9e9"/></linearGradient>
-    <radialGradient id="light"><stop stop-color="#9b82ff" stop-opacity=".15"/><stop offset="1" stop-color="#9b82ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="light"><stop stop-color="#8b78e8" stop-opacity=".15"/><stop offset="1" stop-color="#8b78e8" stop-opacity="0"/></radialGradient>
   </defs>
-  <rect x="1" y="1" width="766" height="798" rx="20" fill="url(#surface)" stroke="#30394f"/>
-  <ellipse cx="384" cy="490" rx="330" ry="230" fill="url(#light)"/>
-  <path d="M48 54H82" stroke="#48d9e9" stroke-width="3"/>
-  <text x="98" y="60" font-family="ui-monospace, 'Courier New', monospace" font-size="18" letter-spacing="2" fill="#48d9e9">PERSONAL PRIVACY TOOLKIT</text>
-  <text x="43" y="186" font-family="Arial, Helvetica, sans-serif" font-size="102" font-weight="700" letter-spacing="-5" fill="#f4f5ff">SafeSpace</text>
-  <text x="48" y="252" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="-.4" fill="#bcc5dc">Inspect your space.</text>
-  <text x="48" y="296" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="-.4" fill="#bcc5dc">Understand what you observe.</text>
-  <g fill="none" stroke="#6d7396" stroke-width="1">
-    <circle cx="384" cy="495" r="140" stroke-opacity=".5"/><circle cx="384" cy="495" r="94" stroke-opacity=".45"/>
-    <path d="M244 495H290M478 495H524M384 355V401M384 589V635" stroke-opacity=".6"/>
-  </g>
-  <g fill="#111727" stroke="url(#accent)" stroke-width="2">
-    <circle cx="244" cy="495" r="6"/><circle cx="524" cy="495" r="6"/><circle cx="384" cy="355" r="6"/><circle cx="384" cy="635" r="6"/>
-  </g>
-  <path d="M384 430L434 450V492C434 527 411 552 384 564C357 552 334 527 334 492V450Z" fill="#171f32" stroke="url(#accent)" stroke-width="3"/>
-  <path d="M384 453V537M359 491H409" stroke="url(#accent)" stroke-width="2"/>
-  <path d="M48 676H720" stroke="#30394f"/>
-  <g font-family="ui-monospace, 'Courier New', monospace" font-size="20" letter-spacing="1" fill="#a7b0c8">
-    <text x="48" y="720">01 / CAMERA</text><text x="405" y="720">02 / BLUETOOTH</text><text x="48" y="760">03 / NETWORK</text><text x="405" y="760">04 / CHECKLIST</text>
-  </g>
+  <rect x="1" y="1" width="766" height="618" rx="18" fill="url(#surface)" stroke="#30394f"/>
+  <ellipse cx="384" cy="400" rx="270" ry="190" fill="url(#light)"/>
+  <path d="M44 45H77" stroke="#48d9e9" stroke-width="3"/>
+  <text x="94" y="51" font-family="ui-monospace, 'Courier New', monospace" font-size="17" letter-spacing="1.8" fill="#48d9e9">PERSONAL PRIVACY / LOCAL TOOLS</text>
+  <text x="39" y="170" font-family="Arial, Helvetica, sans-serif" font-size="106" font-weight="700" letter-spacing="-5" fill="#f4f5ff">SafeSpace</text>
+  <text x="44" y="231" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="-.4" fill="#c2cbe0">Privacy inspection, with context.</text>
+  <g fill="none" stroke="#6d7396" stroke-width="1"><circle cx="384" cy="389" r="105" stroke-opacity=".5"/><circle cx="384" cy="389" r="75" stroke-opacity=".3"/><path d="M279 389H309M459 389H489M384 284V314M384 464V494" stroke-opacity=".5"/></g>
+  <path d="M384 329L430 346V385C430 419 408 443 384 454C360 443 338 419 338 385V346Z" fill="#171f32" stroke="url(#accent)" stroke-width="3"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="2.5"><path d="M357 375V363H369M399 363H411V375M411 403V415H399M369 415H357V403"/><circle cx="384" cy="389" r="10"/></g>
+  <path d="M44 525H724" stroke="#30394f"/>
+  <g font-family="ui-monospace, 'Courier New', monospace" font-size="20" letter-spacing=".5" fill="#a7b0c8"><text x="44" y="562">01 / CAMERA</text><text x="401" y="562">02 / BLUETOOTH</text><text x="44" y="600">03 / LOCAL IPV4</text><text x="401" y="600">04 / CHECKLIST</text></g>
 </svg>

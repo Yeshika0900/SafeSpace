@@ -1,33 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title description">
-  <title id="title">SafeSpace</title>
-  <desc id="description">Original project artwork in midnight, violet and cyan. Four existing tools: camera, Bluetooth, IPv4 inventory and checklist. The shield and rings are decorative, not sensing results.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title description">
+  <title id="title">SafeSpace — privacy inspection, with context</title>
+  <desc id="description">Original project branding in midnight, violet and cyan. Camera, Bluetooth, local IPv4 inventory and checklist are separate tools. The shield and focus frame are decorative.</desc>
   <defs>
     <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#111727"/><stop offset="1" stop-color="#080b16"/></linearGradient>
     <linearGradient id="accent"><stop stop-color="#9b82ff"/><stop offset="1" stop-color="#48d9e9"/></linearGradient>
-    <radialGradient id="light"><stop stop-color="#9b82ff" stop-opacity=".15"/><stop offset="1" stop-color="#9b82ff" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0V56" fill="none" stroke="#929bb5" stroke-opacity=".065"/></pattern>
+    <radialGradient id="light"><stop stop-color="#8b78e8" stop-opacity=".16"/><stop offset="1" stop-color="#8b78e8" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0V56" fill="none" stroke="#929bb5" stroke-opacity=".045"/></pattern>
   </defs>
-  <rect x="1" y="1" width="1598" height="478" rx="20" fill="url(#surface)" stroke="#30394f"/>
-  <rect x="2" y="2" width="1596" height="476" rx="19" fill="url(#grid)"/>
-  <ellipse cx="1225" cy="203" rx="350" ry="240" fill="url(#light)"/>
-  <path d="M72 52H112" stroke="#48d9e9" stroke-width="3"/>
-  <text x="128" y="58" font-family="ui-monospace, 'Courier New', monospace" font-size="18" letter-spacing="3" fill="#48d9e9">PERSONAL PRIVACY TOOLKIT</text>
-  <text x="66" y="203" font-family="Arial, Helvetica, sans-serif" font-size="126" font-weight="700" letter-spacing="-7" fill="#f4f5ff">SafeSpace</text>
-  <text x="72" y="270" font-family="Arial, Helvetica, sans-serif" font-size="37" letter-spacing="-.6" fill="#bcc5dc">Inspect your space.</text>
-  <text x="72" y="316" font-family="Arial, Helvetica, sans-serif" font-size="37" letter-spacing="-.6" fill="#bcc5dc">Understand what you observe.</text>
-  <g fill="none" stroke="#6d7396" stroke-width="1">
-    <circle cx="1240" cy="204" r="152" stroke-opacity=".45"/><circle cx="1240" cy="204" r="104" stroke-opacity=".4"/>
-    <path d="M1088 204H1136M1344 204H1392M1240 52V100M1240 308V356" stroke-opacity=".6"/>
+  <rect x="1" y="1" width="1598" height="418" rx="18" fill="url(#surface)" stroke="#30394f"/>
+  <rect x="2" y="2" width="1596" height="416" rx="17" fill="url(#grid)"/>
+  <ellipse cx="1260" cy="190" rx="300" ry="220" fill="url(#light)"/>
+  <path d="M68 53H106" stroke="#48d9e9" stroke-width="3"/>
+  <text x="122" y="59" font-family="ui-monospace, 'Courier New', monospace" font-size="17" letter-spacing="2.8" fill="#48d9e9">PERSONAL PRIVACY / LOCAL TOOLS</text>
+  <text x="61" y="201" font-family="Arial, Helvetica, sans-serif" font-size="132" font-weight="700" letter-spacing="-7" fill="#f4f5ff">SafeSpace</text>
+  <text x="68" y="264" font-family="Arial, Helvetica, sans-serif" font-size="36" letter-spacing="-.5" fill="#c2cbe0">Privacy inspection, with context.</text>
+  <path d="M68 314H953" stroke="#30394f"/>
+  <g font-family="ui-monospace, 'Courier New', monospace" font-size="17" letter-spacing="1" fill="#a7b0c8">
+    <text x="68" y="356">01 / CAMERA</text><text x="272" y="356">02 / BLUETOOTH</text><text x="520" y="356">03 / LOCAL IPV4</text><text x="780" y="356">04 / CHECKLIST</text>
   </g>
-  <g fill="#111727" stroke="url(#accent)" stroke-width="2">
-    <circle cx="1088" cy="204" r="7"/><circle cx="1392" cy="204" r="7"/><circle cx="1240" cy="52" r="7"/><circle cx="1240" cy="356" r="7"/>
-  </g>
-  <path d="M1240 138L1292 158V202C1292 240 1268 265 1240 277C1212 265 1188 240 1188 202V158Z" fill="#171f32" stroke="url(#accent)" stroke-width="3"/>
-  <path d="M1240 161V250M1214 201H1266" fill="none" stroke="url(#accent)" stroke-width="2"/>
-  <text x="1240" y="402" text-anchor="middle" font-family="ui-monospace, 'Courier New', monospace" font-size="14" letter-spacing="2" fill="#929bb5">OBSERVATION REQUIRES JUDGEMENT</text>
-  <path d="M72 365H965" stroke="#30394f"/>
-  <g font-family="ui-monospace, 'Courier New', monospace" font-size="15" letter-spacing="1.5" fill="#a7b0c8">
-    <text x="72" y="405">01 / CAMERA</text><text x="282" y="405">02 / BLUETOOTH</text><text x="530" y="405">03 / NETWORK</text><text x="750" y="405">04 / CHECKLIST</text>
-  </g>
-  <path d="M72 447H1528" stroke="#30394f"/>
+  <g fill="none" stroke="#6d7396" stroke-width="1"><circle cx="1260" cy="193" r="128" stroke-opacity=".5"/><circle cx="1260" cy="193" r="88" stroke-opacity=".3"/><path d="M1132 193H1172M1348 193H1388M1260 65V105M1260 281V321" stroke-opacity=".5"/></g>
+  <path d="M1260 123L1316 144V190C1316 230 1290 259 1260 272C1230 259 1204 230 1204 190V144Z" fill="#171f32" stroke="url(#accent)" stroke-width="3"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="2.5"><path d="M1228 178V165H1241M1279 165H1292V178M1292 211V224H1279M1241 224H1228V211"/><circle cx="1260" cy="194" r="12"/></g>
+  <text x="1260" y="356" text-anchor="middle" font-family="ui-monospace, 'Courier New', monospace" font-size="14" letter-spacing="1.8" fill="#929bb5">OBSERVATION REQUIRES JUDGEMENT</text>
+  <path d="M68 387H1532" stroke="#30394f"/>
 </svg>
