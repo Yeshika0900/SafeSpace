@@ -8,7 +8,7 @@ These are actual full-viewport captures of the existing app in Chromium, generat
 - Real camera/BLE APIs were replaced with throwing adapters; helper requests were blocked. Capture asserted zero sensing requests and page errors.
 - Reduced motion was enabled. No imagery of a room, real nearby identifiers or network inventory was collected.
 
-The two SVG banners are original decorative artwork using SafeSpace's existing midnight/violet/cyan palette and shield motif. Their rings are not scan results. They include accessible titles/descriptions and reference no external assets.
+The SVG banners and responsive inspection-path illustrations are original artwork using SafeSpace's existing midnight/violet/cyan palette and shield motif. The shield/focus motif is decorative. The inspection path explains existing controls; it does not imply an automated surveillance verdict. They include accessible titles/descriptions and reference no external assets.
 
 No logos, screenshots, artwork or code were copied from the reference profile. See [presentation sources](../presentation/README.md).
 
@@ -17,3 +17,7 @@ The temporary capture harness and plan were removed once the reviewed assets wer
 ## Reproduce the capture
 
 The [capture run](https://github.com/Yeshika0900/SafeSpace/actions/runs/43567832676) retains the executed checks. The temporary [capture script](https://github.com/Yeshika0900/SafeSpace/blob/c29d2c264cbff181d440a98140c2a7a1b405f0b2/website/e2e/presentation-capture.spec.js) and [asset plan](https://github.com/Yeshika0900/SafeSpace/blob/c29d2c264cbff181d440a98140c2a7a1b405f0b2/docs/presentation/capture-plan.json) remain in Git history. They document the original source revision, synthetic sensing guards, viewport sizes, full-viewport screenshot settings and Prettier formatting step. The banner PNG previews used for visual review are not duplicate assets in the final tree.
+
+## Reuse
+
+Original SafeSpace vector artwork is covered by the root [MIT license](../../LICENSE). Screenshots include the upstream icon/font elements identified in [third-party notices](../../THIRD_PARTY_NOTICES.md). Preserve applicable attribution when reusing them.

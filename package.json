@@ -17,5 +17,6 @@
     "android:sync": "npm --prefix website run android:sync",
     "helper": "npm --prefix network-agent start"
   },
-  "type": "module"
+  "type": "module",
+  "license": "MIT"
 }

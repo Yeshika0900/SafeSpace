@@ -1,6 +1,6 @@
 # SafeSpace setup and verification
 
-This guide describes the review branch in [draft PR #1](https://github.com/Yeshika0900/SafeSpace/pull/1). Run commands from the repository root unless a step changes directory. The root forwards web and native commands to `website/`.
+This guide describes the merged quality baseline and the presentation/licensing follow-up. Run commands from the repository root unless a step changes directory. The root forwards web and native commands to `website/`.
 
 ## Install and run
 
