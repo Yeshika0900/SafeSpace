@@ -1,0 +1,7 @@
+website/android/
+website/dist/
+website/node_modules/
+node_modules/
+website/test-results/
+website/playwright-report/
+.cache/

@@ -52,5 +52,10 @@ for group in model['weightsManifest']:
     for path in group['paths']:
         artifacts[path] = download(model_base + path, model_dir / path)
 manifest = {'dataset':'COCO2017 val, deterministic 32-image engineering subset; not full benchmark', 'annotationArchiveSha256':archive_sha,'annotationSha256':hashlib.sha256(annotations).hexdigest(),'images':images,'modelUrl':model_base+'model.json','modelArtifacts':artifacts,'train2017Val2017ImageIdOverlap':0,'pretrainingOverlap':'Official train/val image IDs checked disjoint. Exact original weight training membership is not independently attested; do not call this independent validation.','categories':data['categories']}
+expected_path = pathlib.Path(__file__).resolve().parents[1] / 'docs/quality/benchmark-manifest.json'
+if expected_path.exists():
+    expected = json.loads(expected_path.read_text())
+    if manifest != expected:
+        raise ValueError('Retrieved assets differ from committed benchmark manifest')
 (root / 'manifest.json').write_text(json.dumps(manifest, indent=2)+'\n')
 print(json.dumps({'images':len(images),'annotationsSha256':manifest['annotationSha256'],'modelArtifacts':artifacts},indent=2))
