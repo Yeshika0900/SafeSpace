@@ -36,7 +36,7 @@ Production retains the existing upstream model URL and baseline settings. Benchm
 
 ## Results
 
-Both CPU runs produced **identical labels, scores and boxes** (maximum difference 0). The evaluation source is `3c8841b`; each raw run also records the working-diff hash. Subsequent source changes only format code and guard malformed native BLE callbacks/pagehide; model configuration and inference behavior remain unchanged. See the committed `benchmark-run{1,2}.json` and `benchmark-run{1,2}-summary.json` files for full predictions, slices and provenance.
+Both CPU runs produced **identical labels, scores and boxes** (maximum difference 0). The evaluation source is `3c8841b`; each raw run also records the working-diff hash. Subsequent source changes format code, guard malformed native BLE callbacks/pagehide, accept empty Unix neighbour output and serialize camera inference across remounts; model configuration and inference behavior remain unchanged. See the committed `benchmark-run{1,2}.json` and `benchmark-run{1,2}-summary.json` files for full predictions, slices and provenance.
 
 | Split/configuration                                  | Images/boxes | AP50:95 |   AP50 | Small AP | Precision50 | Recall50 | False positives50 |
 | ---------------------------------------------------- | -----------: | ------: | -----: | -------: | ----------: | -------: | ----------------: |

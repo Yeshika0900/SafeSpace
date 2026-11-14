@@ -27,9 +27,10 @@ type Session = {
   timer?: ReturnType<typeof setTimeout>;
   inFlight: boolean;
 };
+// TensorFlow work from a cancelled tool may still be finishing after remount.
+let inferenceBusy = false;
 export class CameraSession {
   private current?: Session;
-  private inferenceBusy = false;
   private state = off();
   constructor(
     private video: () => HTMLVideoElement | null,
@@ -135,8 +136,8 @@ export class CameraSession {
     if (!this.live(s)) return;
     try {
       const v = this.video();
-      if (!this.inferenceBusy && v && v.readyState >= 2 && s.model) {
-        this.inferenceBusy = true;
+      if (!inferenceBusy && v && v.readyState >= 2 && s.model) {
+        inferenceBusy = true;
         s.inFlight = true;
         try {
           const predictions = await s.model.detect(
@@ -153,7 +154,7 @@ export class CameraSession {
                 : "No common objects recognised in this frame.",
             });
         } finally {
-          this.inferenceBusy = false;
+          inferenceBusy = false;
           s.inFlight = false;
         }
       }

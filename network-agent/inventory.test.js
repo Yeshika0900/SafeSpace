@@ -143,3 +143,7 @@ test("real subprocess timeout kills a harmless synthetic child", async () => {
   );
   assert.ok(Date.now() - start < 10000);
 });
+test("empty Linux arp cache is successful after a zero-exit command", () =>
+  assert.deepEqual(parseNeighbours("", "linux-arp"), []));
+test("empty macOS arp cache is successful after a zero-exit command", () =>
+  assert.deepEqual(parseNeighbours("", "macos"), []));
