@@ -10,6 +10,8 @@
   <sub>Experimental · React + TypeScript services · Web / Android packaging · <a href="LICENSE">MIT licensed</a></sub>
 </p>
 
+**Created and maintained by [Yeshika0900](https://github.com/Yeshika0900).**
+
 SafeSpace brings **camera inspection, Bluetooth information, local network context and a practical checklist** into one workspace. Look at your surroundings, review what the tools can actually observe, and keep the next decision in human hands.
 
 > **Know the scope:** COCO-SSD recognises ordinary objects. SafeSpace is not a validated hidden-camera or tracker detector, and an empty result does not certify room safety. Physical-device acceptance and Android APK validation remain open.
@@ -72,7 +74,7 @@ _Actual 390-pixel Chromium capture, 0/6 checked. This is viewport emulation, not
 
 ## Verification and evidence
 
-Software checks and model evaluation answer different questions. The recorded checkpoint is [d3af967, 14 November 2026](https://github.com/Yeshika0900/SafeSpace/commit/d3af9676840c8e3006067e80887ca75645244981); the [quality workflow](https://github.com/Yeshika0900/SafeSpace/actions/workflows/quality.yml) shows subsequent software runs.
+Software checks and model evaluation answer different questions. The measurements below were recorded at the [14 November 2026 checkpoint](https://github.com/Yeshika0900/SafeSpace/commit/7945a7df9e75262c3b6fe069b67fec8cb828dcfa); the [quality workflow](https://github.com/Yeshika0900/SafeSpace/actions/workflows/quality.yml) shows subsequent software runs.
 
 ### Software verification
 
@@ -92,10 +94,10 @@ A candidate reached 28.58% validation AP50:95, but precision50 fell **94.59% →
 
 ## Run locally
 
-The quality baseline is merged into `main`. Select the follow-up branch below to review this presentation and licensing update. Use **Node 24.22.1 LTS / npm 11.9.0** for the recorded setup; tooling requires Node >=22.13.
+The quality and MIT-licensing work are merged into `main`. The commands below use the default branch. Use **Node 24.22.1 LTS / npm 11.9.0** for the recorded setup; tooling requires Node >=22.13.
 
 ```sh
-git clone --branch codex/presentation-and-mit-license https://github.com/Yeshika0900/SafeSpace.git
+git clone https://github.com/Yeshika0900/SafeSpace.git
 cd SafeSpace
 npm ci
 npm --prefix website ci

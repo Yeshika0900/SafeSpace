@@ -16,7 +16,7 @@ The temporary capture harness and plan were removed once the reviewed assets wer
 
 ## Reproduce the capture
 
-The [capture run](https://github.com/Yeshika0900/SafeSpace/actions/runs/43567832676) retains the executed checks. The temporary [capture script](https://github.com/Yeshika0900/SafeSpace/blob/c29d2c264cbff181d440a98140c2a7a1b405f0b2/website/e2e/presentation-capture.spec.js) and [asset plan](https://github.com/Yeshika0900/SafeSpace/blob/c29d2c264cbff181d440a98140c2a7a1b405f0b2/docs/presentation/capture-plan.json) remain in Git history. They document the original source revision, synthetic sensing guards, viewport sizes, full-viewport screenshot settings and Prettier formatting step. The banner PNG previews used for visual review are not duplicate assets in the final tree.
+The [capture run](https://github.com/Yeshika0900/SafeSpace/actions/runs/43567832676) retains the executed checks. The temporary [capture script](https://github.com/Yeshika0900/SafeSpace/blob/c90d1b9582fcb6ace46ad2d95b863d304904bec3/website/e2e/presentation-capture.spec.js) and [asset plan](https://github.com/Yeshika0900/SafeSpace/blob/c90d1b9582fcb6ace46ad2d95b863d304904bec3/docs/presentation/capture-plan.json) remain in Git history. They document the original source revision, synthetic sensing guards, viewport sizes, full-viewport screenshot settings and Prettier formatting step. The banner PNG previews used for visual review are not duplicate assets in the final tree.
 
 ## Reuse
 
